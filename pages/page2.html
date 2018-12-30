@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tom's Work</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" type="text/css" href="main2.css">
+        <link rel="stylesheet" type="text/css" href="test.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <script>
+	  $(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+ 
+      event.preventDefault();
+		
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+       
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+	</script>
+</head>
+<body>
+	<div id="header">
+	   <div id="header1">
+		<section id="logo">
+			<img id="logo_img" src="../source/logo_web_myself.png" alt="">
+		</section>
+		<section id="menu">
+		     <a class="About" href="../index.html"><p>About</p></a>
+			<p>Work</p>
+			<a class="Contact" href="#footer"><p>Contact</p></a>
+			<div class="underLine" style="margin-left: 170px;"></div>
+		</section>
+		</div>
+	</div>
+	
+	<div id="homePage">
+		<div id="homePageContent">
+			<img  src="../source/work_page.png" alt="">
+			<span id="content">
+				<h1>My Projects</h1>
+		       
+			</span>
+			
+		</div>
+		
+	</div>
+	
+	<div id="mainPage">
+		
+		<img class="logo1" src="../source/design.png" alt="">
+		
+		<h2>
+			What I have created
+		</h2>
+		
+	  <div class="text1">
+	  	Below are the selection of my recent works. There are interaction (UX/UI) and multimedia field. For more up to the minute work you can click the button
+	  </div>
+	  
+	  <div id="banner">
+	  	Interaction and UX/UI works
+	  </div>
+	  <section id="project" style="background:#FCEC97;">
+	  	<div id="circleContainer">
+	  		<img id="circle" src="../source/compo.png" alt="">
+	  	</div>
+	  	<img id="mobile" src="../source/compo_mobile.png" alt="">
+	  	<h3>COMPO</h3>
+	  	<h4>AR Porject / UI </h4>
+	  	<h5>
+	  	  Compo is an AR based mobile application for educational purposes. It is integrated with AR technique to provide more engaging and entertaining approaches for learning English for children.
+	  	</h5>
+	  	<a href="page3.html">
+	  	<div id="readMore">
+	  	  Read More
+	  		
+	  	</div>
+	  	</a>
+	  </section>
+	 
+	   <section id="project" style="background:#F6C5C8;">
+	  	<div id="circleContainer">
+	  		<img id="circle" src="../source/hifi.png" alt="">
+	  	</div>
+	  	<img id="mobile" src="../source/hifi_mobile.png" alt="">
+	  	<h3>HIFI</h3>
+	  	<h4>Futuristic Porject / UI </h4>
+	  	<h5>
+	  	  This project aims to tackle down the possible issues - overpopulation - for the near future. By integrating with hologram related tech and generated senses of touch golve to approach. With the application to work closely for the entire system. 
+	  	</h5>
+	  	<div id="readMore">
+	  		Read More
+	  	</div>
+	  </section>
+	  
+	  
+	  
+	   <div id="banner">
+	  	Multimedia Design works
+	  </div>
+	  <section id="project" style="background:#85BCA8;">
+	  	
+	  		<div class="buddy">
+  <div class="zzz"> <span>Z</span><span>Z</span><span>Z</span>
+  </div>
+  <div class="eyes-closed">
+    <div class="eye"></div>
+    <div class="eye"></div>
+  </div>
+  <div class="eyes-open">
+    <div class="eye"></div>
+    <div class="eye"></div>
+  </div>
+  <div class="mouth"> <span>HEY!!</span></div>
+</div>
+	  	
+	  	<h3>Visual Content</h3>
+	  	<h4>Animation / Video / Logo Design </h4>
+	  	<h5>
+	  	  Visual content can be useful and engaged in getting marketing campaigns to stick and resonate with people. There are a wide variety of multimedia works that I have created.
+	  	</h5>
+	  	<a href="page1.html"><div id="readMore">
+	  		Read More
+	  	</div></a>
+	  	
+	  </section>
+	 
+		
+	 
+		
+		
+		  
+		
+		
+		<div id="footer">
+			<h5>Pick me</h5>
+			<p>If you have any project want to be shined and want to collaborate on creating terrific experience to people then you are welcome to drop me a message, then get in touch.</p>
+			
+			<div id="messager">
+				Message Me
+			</div>
+			
+			<div id="contactMe">
+				<div>
+					<p>0413648366</p>
+					<img src="../source/mobileIcon.png" alt="">
+				</div>
+				<div>
+					<p style="margin-left: -50px;">tom7948@yahoo.com.tw</p>
+					<img src="../source/email.png" alt="">
+				</div>
+			</div>
+			
+		</div>
+	
+	</div>
+</body>
+</html>

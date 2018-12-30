@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tom's Work</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" type="text/css" href="main3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <script>
+	  $(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+ 
+      event.preventDefault();
+		
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+       
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+	</script>
+       
+</head>
+<body>
+	<div id="header">
+	   <div id="header1">
+		<section id="logo">
+			<img id="logo_img" src="../source/logo_web_myself.png" alt="">
+		</section>
+		<section id="menu">
+			<a class="About" href="../index.html"><p>About</p></a>
+			<a class="Work" href="page2.html"><p>Work</p></a>
+			<a class="Contact" href="#footer"><p>Contact</p></a>
+			
+			<div class="underLine" style="margin-left: 170px;"></div>
+		</section>
+		</div>
+	</div>
+	
+	<div id="homePage">
+		<div id="homePageContent">
+			<img  src="../source/work_page.png" alt="">
+			<span id="content">
+				<h1>My Projects</h1>
+		       
+			</span>
+			
+		</div>
+		
+	</div>
+	
+	<div id="mainPage">
+		 
+		 <div id="container1">
+		 	<img class="img1" src="../ar_blob_img/ar_compo.png" alt=""> 	
+		 </div>
+		 
+		 <div id="container2">
+		 	<section>
+		 	    <div><h4>HOW IDEA WAS BUILT</h4>
+		 		<h5>The main concept of COMPO are built on the relationship of interaction and distance. The idea is combination and interaction. By integrating with distance function and play animation function to trigger the specific effect then brings out entertaining and interactive points while learning English. In addition, when specific combination is triggered, the radio source would be set to corresponding sound clip, by utilising IF function to set the specific parameters. In COMPO, not only allow user combine main card (animal card) with one of any other card, but also can combine with two to three cards in one go. Therefore, coding for this part turned out to be very complex since there would have a wide range of combinations.</h5></div>
+		 		
+		 	</section>
+		 	<section>
+		 	    <img style="width: 120px;  display: block; float: right; margin-top: 50px;" src="../ar_blob_img/ar_img2.png" alt="">
+		 		<img style="width: 400px; margin-top: 120px;" src="../ar_blob_img/ar_img.png" alt="">
+		 	</section>
+		 </div>
+		 
+		 <img style="width: 40%; position: absolute; left: -160px; top: 2150px;" src="../ar_blob_img/ar_4.png" alt="">
+		 
+		 <img style="width: 40%; position: absolute; float: right; top: 2700px;right: -250px; transform:rotate(260deg);" src="../ar_blob_img/ar_3.png" alt="">
+		 
+		 <div id="container2">
+		 	<section>
+		 	    <div><h4>THE SUPPORT FEATURE</h4>
+		 		<h5>The purpose of this project is addressing the idea of English learning with Augmented Reality technology, therefore, I have used some of the 3D animated models (Animals) which are created by other developers in oder to present the completed concept. In addition, I used some of the voice to text websites to create the sound clips, also a image of a crowds of animals for homepage. For the marker, I designed a series of cards which can be categorized into different types, such as animal card, number card, action card and colour card.</h5></div>
+		 		
+		 	</section>
+		 	<section>
+		 	    
+		 		<img style="width: 400px; margin-top: 350px;" src="../ar_blob_img/ar_img3.png" alt="">
+		 	</section>
+		 </div>
+		 
+		 <div id="container2">
+		 	<section>
+		 		<img style="width: 240px; margin-top: 330px; display: block;" src="../ar_blob_img/ar_img4.png" alt="">
+		 	</section>
+		 	<section>
+		 	     <div><h4>UI DESIGN / USER FLOW</h4>
+		 		<h5>Since the target audience of COMPO is focusing on children, the font and the colour are chosen to be more vivid, and bright. In addition, the UI is designed to be rather simple and easy to understand. A image of a group of animals on the homepage represents this English learning app is surrounded by various interactions done by different animals, also the simple animated title creates an interesting and vibrant atmosphere. When starting, UI would simply take user go through the journey of basic instruction. By following it step by step, user could understand how to navigate and play around with those cards.</h5></div>
+		 		
+		 	</section>
+		 </div>
+		  <img style="width: 100%; position: absolute; top:4120px; right:0;" src="../ar_blob_img/ar_img15.png" alt="">
+		 <div id="container3">
+		 	 <img style="width: 100%; position: relative; margin-top: 200px;" src="../ar_blob_img/ar.png" alt="">
+		 </div>
+		 <div id="container2" style="height: 700px;">
+		 	<section><img style="width: 80%; margin-top: 200px;" src="../ar_blob_img/ar_img12.png" alt=""></section>
+		 	
+		 	<section>
+		 		<img style="width: 80%; margin-top: 250px; z-index: 1;" src="../ar_blob_img/ar_2.png" alt="">
+		 		<p>UI for voice button</p>
+		 	</section>
+		 </div>
+		 
+		 <div id="container2" style="height: 600px;">
+		    <section>
+		 		<img style="width: 80%; margin-top: 100px; z-index: 1;" src="../ar_blob_img/ar_img16.png" alt="">
+		 		<p>UI for Hand gesture</p>
+		 	</section>
+		 	<section><img style="width: 70%; margin-top: 0px;" src="../ar_blob_img/ar_img14.png" alt="">
+		 	<img style="width: 28%; margin-top: -250px; margin-left: 300px;" src="../ar_blob_img/ar_img6.png" alt=""></section>
+		 	
+		 	
+		 </div>
+		 
+		  <div id="container2" style="height: 600px;">
+		 	<section><img style="width: 90%;margin-top: 0;" src="../ar_blob_img/ar_img11.png" alt=""></section>
+		 	
+		 	<section>
+		 		<img style="width: 80%; margin-top: 50px; z-index: 1;" src="../ar_blob_img/ar_2.png" alt="">
+		 		<p>UI for User visibility</p>
+		 	</section>
+		 </div>
+		 
+		  <div id="container2" style="height: 600px;">
+		    <section>
+		 		<img style="width: 80%; margin-top: 100px; z-index: 1;" src="../ar_blob_img/ar_img16.png" alt="">
+		 		<p>UI for HomePage</p>
+		 	</section>
+		 	<section><img style="width: 90%; margin-top: 50px;" src="../ar_blob_img/ar_img9.png" alt="">
+		 	</section>
+		 	
+		 	
+		 </div>
+		 
+		 <div id="mobileSection">
+		 <img style="width: 100%; height: 482px;" src="../ar_blob_img/mobile.png" alt="">
+		 	<video width="750" controls>
+		 		<source src="../ar_blob_img/compo.mp4" type="video/mp4">
+		 	</video>
+		 </div>
+	  
+	      <div id="container2">
+		 	<section>
+		 	    <div style="margin-top: 50px;"><h4>WHAT NEEDS MORE TIME OR SKILLS TO COMPLETE</h4>
+		 		<h5>In the beginning, I was going to utilise more animals as my main card, along with three different types of cards (action, number and colour) to interact with. However, the permutations and combinations could be made are way too many than I expected. Furthermore, there are some difficulties in Vuforis’s original built setting (marker’s image would not be completely destroyed when tracking has lost) which might cause problem especially my design need to work with several markers. It required strong programming skills to solve this problem. There is definitely more efficient way to program this, and even more solid and sound without making any errors. Moreover, it could handle more elements in its database. For those technical parts would be taken by professional programmers. What I can do according to my ability is using a simple coding method to present how this interactive system should look like and work, also for its design of interface. </h5></div>
+		 		
+		 	</section>
+		 	<section>
+		 	    
+		 		<img style="width: 100%; margin-top: 250px;" src="../ar_blob_img/img_16.png" alt="">
+		 	</section>
+		 </div>
+	 
+		<div id="footer">
+			<h5>Pick me</h5>
+			<p>If you have any project want to be shined and want to collaborate on creating terrific experience to people then you are welcome to drop me a message, then get in touch.</p>
+			
+			<div id="messager">
+				Message Me
+			</div>
+			
+			<div id="contactMe">
+				<div>
+					<p>0413648366</p>
+					<img src="../source/mobileIcon.png" alt="">
+				</div>
+				<div>
+					<p style="margin-left: -50px;">tom7948@yahoo.com.tw</p>
+					<img src="../source/email.png" alt="">
+				</div>
+			</div>
+			
+		</div>
+	
+	</div>
+</body>
+</html>
