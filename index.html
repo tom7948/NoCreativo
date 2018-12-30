@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tom's Studio</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" type="text/css" href="pages/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <script>
+	  $(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+ 
+      event.preventDefault();
+		
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+       
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+	</script>
+</head>
+<body>
+	<div id="header">
+	   <div id="header1">
+		<section id="logo">
+			<img id="logo_img" src="source/logo_web_myself.png" alt="">
+		</section>
+		
+		<section id="menu">
+			<p>About</p>
+			<a class="Work" href="pages/page2.html"><p>Work</p></a>
+			<a class="Contact" href="#footer"><p>Contact</p></a>
+			
+			<div class="underLine" style="margin-left: 40px;"></div>
+		</section>
+		</div>
+	</div>
+	<div id="homePage">
+		<div id="homePageContent">
+			<img  src="source/web_baground.png" alt="">
+			<span id="content">
+				<h1>Hello,</h1>
+		        <h2>I am Tom</h2>
+		<p>A UX/UI and Interaction Designer</p>
+			</span>
+			
+		</div>
+		
+	</div>
+	<div id="mainPage">
+	  <img class="logo1" src="source/logo_web_Greymyself.png" alt="">
+		
+	  <div class="text1">
+	  	Hi, I am UX/UI and digital designer based in Melbourne, Australia. I am keen on user experience and interface on web and application. In addition, I enjoy learning new things, meeting people to talk about design, video, innovative ideas over coffee or beers.
+	  </div>
+		
+		<div id="text">
+		Skillset</div>
+		
+		<div id="skillBar">
+			<div>
+				<section class="skill1"></section>
+			</div>
+			<div>
+				<section class="skill2"></section>
+			</div>
+			<div>
+				<section class="skill3"></section>
+			</div>
+			<div>
+				<section class="skill4"></section>
+			</div>
+			<div>
+				<section class="skill5"></section>
+			</div>
+			<div>
+				<section class="skill6"></section>
+			</div>
+			<div>
+				<section class="skill7"></section>
+			</div>
+		</div>
+		
+		<div id="skillText">
+		   <p>Photoshop </p>
+		   <p>Illustrator </p>
+		   <p>Sketch </p>
+		   <p>InDesign </p>
+		   <p>AfterEffects </p>
+		   <p>Unity3D </p>
+		   <p>Html/Css </p>
+			
+		</div>
+		
+		<div id="text">
+		What I can do</div>
+		<div id="designSection">
+		
+		<div>
+		    <a href="./pages/page2.html">
+		    	<span id="container_logo1">
+	        <img class="img4" src="source/logo_web_myself.png" alt="">
+	        <img class="img6" src="source/logo_web_Greymyself.png" alt="">
+	        </span>
+		    </a>
+			 
+	        
+			<img class="img3" src="source/loop_ui.gif" alt="">
+		</div>
+		
+		<div>
+		    <h3><a href="./pages/page2.html">UX/UI and interaction Design</a></h3>
+			<p>Less is more. I like to keep everything simple so it’s easy to be navigated and understand. I strive to create innovative solution, user-friendly flow, visual and interactive content,  also convey the message that you want.</p>
+		</div>
+			
+		</div>
+		
+		<div id="designSection">
+		
+		<div>
+		     <h3><a href="./pages/page1.html">Multimedia Design</a> </h3>
+			<p>Visuals are more powerful than words. I like creating video, motion graphics to convey the ideas. No doubt, animated visual contents are easy to catch people’s attention, more engaging and absorb the info effectively. </p>
+			
+		</div>
+		
+		<div>
+	        <img class="img3" src="source/loop_animation_2.gif" alt="">
+	        
+	        <a href="./pages/page1.html">
+	        <span id="container_logo">
+	        <img class="img4" src="source/logo_web_myself.png" alt="">
+	        <img class="img5" src="source/logo_web_Greymyself.png" alt="">
+	        </span>
+	        </a>
+		    
+			
+		</div>
+			
+		</div>
+		
+		<div id="mySystem">
+		   <h5>My system </h5>
+		   <p>Every story comes with the choice we made, so do the best to create a wonderful one.</p>
+			
+		</div>
+		
+		<div class="bottom" id="footer">
+			<h5>Pick me</h5>
+			<p>If you have any project want to be shined and want to collaborate on creating terrific experience to people then you are welcome to drop me a message, then get in touch.</p>
+			
+			<div id="messager">
+				Message Me
+			</div>
+			
+			<div id="contactMe">
+				<div>
+					<p>0413648366</p>
+					<img src="source/mobileIcon.png" alt="">
+				</div>
+				<div>
+					<p style="margin-left: -50px;">tom7948@yahoo.com.tw</p>
+					<img src="source/email.png" alt="">
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
