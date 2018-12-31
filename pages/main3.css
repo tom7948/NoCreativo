@@ -7,6 +7,7 @@
 }
 
 
+
 body{
 	overflow-x: hidden;
 	cursor: default;
@@ -158,6 +159,39 @@ color: #C2953E;
 	
 }
 
+#circle{
+	background:royalblue;
+	 animation: from0to360 1s linear infinite;
+  cx: 150;
+  cy: 145;
+  r: 100;
+  transform-origin: 145px 150px;
+	
+}
+
+@-webkit-keyframes from0to360 {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes from0to360 {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+
+
 #container2{
 	margin-top: 50px;
 	height: 800px;
@@ -209,7 +243,8 @@ line-height: normal;
 font-size: 26px;
 	color: white;
 	margin-top: -150px;
-	z-index: 100;
+	z-index: 1000;
+	
 }
 
 #container3 {
