@@ -32,19 +32,7 @@
   });
 });
 	</script>
-	<script>
-		$(window).scroll(function(){
-			$('nav').toggleClass('scrolled', $(this).scrollTop() > 800);
-		});
-		
-		$(window).scroll(function(){
-			$('img').toggleClass('scrolled', $(this).scrollTop() > 800);
-		});
-		
-		$(window).scroll(function(){
-			$('section').toggleClass('scrolled', $(this).scrollTop() > 800);
-		});
-	</script>
+	
 </head>
 <body>
 	<nav class="header bg-color">
@@ -196,6 +184,16 @@
 			
 		</div>
 	</div>
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 800);
+			
+			$('img').toggleClass('scrolled', $(this).scrollTop() > 800);
+			
+			$('section').toggleClass('scrolled', $(this).scrollTop() > 800);
+		});
+		
+	</script>
 	
 </body>
 </html>
