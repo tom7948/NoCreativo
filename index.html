@@ -7,8 +7,9 @@
         <title>Tom's Studio</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" type="text/css" href="pages/main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <script>
 	  $(document).ready(function(){
 
@@ -31,23 +32,36 @@
   });
 });
 	</script>
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 800);
+		});
+		
+		$(window).scroll(function(){
+			$('img').toggleClass('scrolled', $(this).scrollTop() > 800);
+		});
+		
+		$(window).scroll(function(){
+			$('section').toggleClass('scrolled', $(this).scrollTop() > 800);
+		});
+	</script>
 </head>
 <body>
-	<div id="header">
-	   <div id="header1">
-		<section id="logo">
-			<img id="logo_img" src="source/logo_web_myself.png" alt="">
+	<nav class="header bg-color">
+	   <div class="header1">
+		<section class="logo">
+			<img class="logoimg" src="source/logo_web_myself.png" alt="">
 		</section>
 		
-		<section id="menu">
+		<section class="menu">
 			<p>About</p>
 			<a class="Work" href="pages/page2.html"><p>Work</p></a>
 			<a class="Contact" href="#footer"><p>Contact</p></a>
 			
-			<div class="underLine" style="margin-left: 40px;"></div>
+			<section class="underLine"></section>
 		</section>
 		</div>
-	</div>
+		</nav>
 	<div id="homePage">
 		<div id="homePageContent">
 			<img  src="source/web_baground.png" alt="">
@@ -111,10 +125,14 @@
 		
 		<div>
 		    <a href="./pages/page2.html">
-		    	<span id="container_logo1">
-	        <img class="img4" src="source/logo_web_myself.png" alt="">
+		    
+            <span id="container_logo1">
+	          <img class="img4" src="source/logo_web_myself.png" alt="">
+	        
 	        <img class="img6" src="source/logo_web_Greymyself.png" alt="">
 	        </span>
+	        
+	        
 		    </a>
 			 
 	        
@@ -178,5 +196,6 @@
 			
 		</div>
 	</div>
+	
 </body>
 </html>
