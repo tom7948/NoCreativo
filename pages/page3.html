@@ -34,20 +34,21 @@
        
 </head>
 <body>
-	<div id="header">
-	   <div id="header1">
-		<section id="logo">
-			<img id="logo_img" src="../source/logo_web_myself.png" alt="">
+	<nav class="header bg-color">
+	   <div class="header1">
+		<section class="logo">
+			<img class="logoimg" src="../source/logo_web_myself.png" alt="">
 		</section>
-		<section id="menu">
-			<a class="About" href="../index.html"><p>About</p></a>
+		
+		<section class="menu">
+			 <a class="About" href="../index.html"><p>About</p></a>
 			<a class="Work" href="page2.html"><p>Work</p></a>
-			<a class="Contact" href="#footer"><p>Contact</p></a>
-			
-			<div class="underLine" style="margin-left: 170px;"></div>
+			<a class="Contact" href="#footer"><p>Contact</p></a>			
+			<section class="underLine"></section>
 		</section>
 		</div>
-	</div>
+		</nav>
+
 	
 	<div id="homePage">
 		<div id="homePageContent">
@@ -189,5 +190,15 @@
 		</div>
 	
 	</div>
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 310);
+			
+			$('img').toggleClass('scrolled', $(this).scrollTop() > 310);
+			
+			$('section').toggleClass('scrolled', $(this).scrollTop() > 310);
+		});
+		
+	</script>
 </body>
 </html>
