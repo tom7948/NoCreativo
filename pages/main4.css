@@ -277,7 +277,9 @@ color: #C2953E;
 	width: 100%;
 	height: auto;
 	z-index: 10;
-	transition: .5s ease;
+	transition: 1s ease;
+	transform: translateX(0);
+	opacity: 0;
 	
 	
 	
@@ -289,8 +291,7 @@ color: #C2953E;
 	height: auto;
 	z-index: 10;
 	transition: 1s ease;
-	transform: translateX(0);
-	opacity: 0;
+	opacity: 1;
 	
 }
 
@@ -655,5 +656,6 @@ color: #EAB44E;
 	}
 	
 }
+
 
 
