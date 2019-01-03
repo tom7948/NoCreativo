@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+@import url('https://fonts.googleapis.com/css?family=Days+One|Roboto:700');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+	
+
+
+
+
+body{
+	overflow-x: hidden;
+	cursor: default;
+}
+
+#header a{
+	text-decoration: none;
+	color: #C2943E;
+}
+
+
+
+.header a{
+	text-decoration: none;
+	color: #C2943E;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	position: sticky;
+	top:0;
+	z-index: 10000;
+	transition: .5s ease;
+	
+}
+
+.bg-color{
+	background: #FFF3DC;
+}
+
+.bg-color.scrolled{
+	height: 60px;
+	background: white;
+}
+
+.header1{
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+	
+}
+
+
+.logo{ 
+  margin-left: 50px;
+  
+}
+
+.logoimg{
+	position: relative;
+	width: 80px;
+	top:10px;
+	transition: .3s ease;
+}
+
+.logoimg.scrolled{
+	position: relative;
+	width:50px;
+	top:5px;
+}
+
+.menu{
+	position: relative;
+	top:-60px;
+	color: #C2943E;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 30px;
+	width: 450px;
+	float: right;
+	transition: .3s ease;
+	
+}
+
+.menu.scrolled{
+	position: relative;
+	top:-40px;
+	color: #C2943E;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+	width: 400px;
+	float: right;
+}
+
+.menu p {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.underLine{
+	background:white;
+	width: 100px;
+	height: 7px;
+	border-radius: 5px;
+	margin-top:5px;
+	margin-left: 170px;
+	transition: .4s ease;
+	
+}
+
+.underLine.scrolled{
+	background:grey;
+	opacity: .7;
+	width: 60px;
+	height: 5px;
+	border-radius: 5px;
+	margin-top:5px;
+	margin-left: 152px;
+	transition: .4s ease;
+	
+}
+
+.About:hover ~ .underLine{
+	transform:translateX(-130px);
+}	
+
+.About:hover ~ .underLine.scrolled{
+	transform:translateX(-105px);
+}	
+
+.Contact:hover ~ .underLine{
+	transform:translateX(145px);
+}	
+
+.Contact:hover ~ .underLine.scrolled{
+	transform:translateX(113px);
+}	
+
+
+
+#homePage{
+	height: 250px;
+	width: 100%;
+	background: #FFF3DC;
+}
+
+#homePageContent{
+	position: relative;
+	height: 250px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	
+}
+
+#homePageContent img{
+	position: absolute;
+    bottom: 0;
+	right: 150px;
+	width: 700px;
+	z-index: 1;
+	
+	
+	
+}
+
+#content{
+	position: absolute;
+	right: 150px;
+	width: 700px;
+	z-index: 10;
+}
+
+#content h1{
+	font-family: Days One;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 64px;
+color: #C2953E;
+}
+
+#mainPage{
+	text-align: center;
+}
+
+
+
+
+#footer{
+	text-align: center;
+}
+
+#content1{
+	margin-top: 150px;
+	margin-bottom: 300px;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	background-image: url(../HIFI/HIFI1.png);
+	background-size: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	z-index: 1;
+	background-repeat:round;
+	
+	
+}
+
+#content1 img{
+	
+	position: relative;
+	margin-top: -50px;
+	width: 900px;
+}
+
+
+
+.content2{
+	position: relative;
+	width: 100%;
+	height:auto;
+	text-align: center;
+	z-index: 1;
+    justify-content: center;
+	transition: .4s ease;
+	
+}
+
+
+
+#cube2 p{
+	position: absolute;
+	font-size: 18px;
+	font-family:monospace;
+	text-align: left;
+	
+	
+
+	
+	
+}
+
+#container2{
+	position: relative;
+	width: 100%;
+	height: auto;
+	
+	
+	
+}
+
+.hifi2{
+	position: relative;
+	width: 100%;
+	z-index: 10;
+}
+
+.hifi2_1{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	transition: .5s ease;
+	
+	
+	
+}
+
+.hifi2_2{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	transition: 1s ease;
+	transform: translateX(0);
+	opacity: 0;
+	
+}
+
+
+
+
+.SlideRight{
+	transition: 1s ease;
+	transform: translateX(0);
+	opacity: 1;
+	
+}
+
+
+#cube2{
+	position: absolute;
+	background: #434343;
+	width: 45%;
+	height: auto;
+	margin-top: 5%;
+	z-index: 100;
+    float: right;
+	right: 0;
+}
+
+#cube2 h4{
+	font-family:sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+text-align: left;
+color: #d28a44; 
+}
+
+
+#cube2 h5{
+	font-family:sans-serif;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: left;
+color: white; 
+	
+}
+
+
+#cube3{
+	position: absolute;
+	background: #434343;
+	width: 35%;
+	height: auto;
+	margin-top: 2%;
+	z-index: 100;
+	left: 0;
+}
+
+#cube3 h4{
+	font-family:sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+text-align: left;
+color: #d28a44; 
+}
+
+
+#cube3 h5{
+	font-family:sans-serif;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: left;
+color: white; 
+	
+}
+
+
+#content3{
+	margin-top: 150px;
+	margin-bottom: 300px;
+	width: 100%;
+	overflow: hidden;
+	background-image: url(../HIFI/HIFI4.png);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat:round;
+	text-align: center;
+	z-index: 1;
+	
+	
+}
+
+#content3 p{
+		font-family:sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+	    display: inline-block;
+	    margin-top: 10%;
+        text-align: left;
+	    font-size: 50px;
+        color: white; 
+}
+
+#hologram{
+	position: absolute;
+	width: 60%;
+	float: right;
+	right: 0;
+	bottom: 5px;
+	display: inline-block;
+	z-index: 10;
+}
+
+#hologram2{
+	position: absolute;
+	width: 58%;
+	float: right;
+	right: 20%;
+	bottom: 10%;
+	display: inline-block;
+	z-index: 10;
+}
+
+.userflow{
+	position: relative;
+	height: auto;
+	width: 500px;
+	text-align: center;
+	float: right;
+	right: 5%;
+	display: inline-flex;
+	
+}
+#mobile{
+	position: absolute;
+	width:62%;
+	margin-top:-130%;
+	z-index: 10;
+}
+#video{
+	position: absolute;
+	margin-top:-113%;
+	z-index: 1;
+	width:54%;
+	right:42%;
+	
+}
+
+
+#footer h5{
+	font-family: Days One;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 55px;
+margin-top:100px;
+color: #C2953E;
+}
+
+#footer p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 18px;
+text-align: center;
+padding-top: 25px;
+color: #000000;
+width: 600px;
+margin-right: auto;
+	margin-left: auto;
+}
+
+#messager{
+	background:#FFF3DC;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:30px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Days One;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+color: #EAB44E;
+	padding-top: 18px;
+}
+
+#contactMe{
+	height: 70px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	display: inline-flex;
+	margin-bottom: 30px;
+}
+
+#contactMe div{
+	width: 300px;
+	height: 100%;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+}
+
+#contactMe img{
+	width: 60px;
+	margin-left: -100px;
+	margin-top:-50px;
+	
+}
+
+#contactMe div p{
+	margin-left: -110px;
+}
+
+@media only screen and (min-width: 890px) {
+	#content3{
+		height: 200px;
+	}
+	
+	h4{
+		font-size: 12px;
+		margin:5px 5px;
+	}
+	
+	h5{
+		font-size: 6px;
+		margin:5px 5px;
+		
+		
+	}
+	
+	
+	h6{
+		font-size: 8px;
+	}
+	
+		#content2{
+		height: 500px;
+		margin-top: 50px;
+	}
+	
+	#cube3{
+		width: 430px;
+	}
+	
+	.content2{
+		margin-bottom: 100px;
+	}
+	.userflow{
+		right: -5%;
+	}	
+	
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+	
+	#content3{
+		height: 300px;
+	}
+	
+	h4{
+		font-size: 20px;
+		margin:5px 10px;
+		
+	}
+	
+	h5{
+		font-size: 12px;
+		margin:5px 10px;
+		
+		
+	}
+	
+	h6{
+		font-size: 14px;
+	}
+	
+	#cube3{
+		width: 450px;
+	}
+	
+	#hologram{
+		bottom: 20px;
+	}
+	
+	.content2{
+		margin-bottom: 400px;
+	}
+	
+	.userflow{
+		right: 5%;
+	}	
+	
+}
+
+
+@media only screen and (min-width: 1250px) {
+	
+	#content3{
+		height: 400px;
+	}
+	
+	
+	h4{
+		font-size: 25px;
+		margin: 10px 20px;
+	}
+	
+	h5{
+		font-size: 14px;
+		margin:10px 20px;
+	}
+	
+	h6{
+		font-size: 16px;
+	}
+	
+	#cube3{
+		width: 550px;
+	}
+	
+	.content2{
+		margin-bottom: 500px;
+	}
+}
+
+
+@media only screen and (min-width: 1500px) {
+	
+	#content3{
+		height: 400px;
+	}
+	
+	
+	h4{
+		font-size: 25px;
+		margin: 15px 20px;
+	}
+	
+	h5{
+		font-size: 16px;
+		margin:15px 20px;
+	}
+	
+	h6{
+		font-size: 16px;
+	}
+	
+	#cube3{
+		width: 650px;
+	}
+	
+}
+
+
