@@ -179,8 +179,8 @@ and so on, in order to avoid complex situation. The timetable system would ensur
            
              
             <div id="container2">
-             <img class="hifi2_1" src="../HIFI/HIFI_hologram1.png" alt="">
-              <img id="hologram"src="../HIFI/Space_model-compressor.gif" alt="">
+             <img class="hifi2_2" src="../HIFI/HIFI_hologram1.png" alt="">
+              <img id="hologram"src="../HIFI/Space_model.gif" alt="">
             <img class="hifi2" src="../HIFI/HIFI_hologram1_2.png" alt="">
 			  </div>
 		   
@@ -193,7 +193,7 @@ and so on, in order to avoid complex situation. The timetable system would ensur
            
              
              <div id="container2">
-             <img class="hifi2_1" src="../HIFI/HIFI_hologram1.png" alt="">
+             <img class="hifi2_2" src="../HIFI/HIFI_hologram1.png" alt="">
              <img id="hologram2"src="../HIFI/InSpace_interface.gif" alt="">
             <img class="hifi2" src="../HIFI/HIFI_hologram1_3.png" alt="">
              
@@ -235,7 +235,7 @@ The sense glove can be used as force-feedback controller for virtual and augment
              
             <div id="container2">
               
-	         <img class="hifi2_1" src="../HIFI/HIFI9.png" alt="">
+	         <img class="hifi2_2" src="../HIFI/HIFI9.png" alt="">
              <img class="hifi2" src="../HIFI/HIFI9_1.png" alt="">
 			  </div>
 		   
@@ -311,17 +311,18 @@ The sense glove can be used as force-feedback controller for virtual and augment
 	
 	<script>
 	var windowHeight = window.innerHeight,
-    gridTop = windowHeight * 0,
+    gridTop = windowHeight * -0.3,
     gridBottom = windowHeight * 1.3;
 	
 	
     $(window).on('scroll', function() {
-      $('img.hifi2_2').each(function() {
+      $('img.hifi2_1').each(function() {
       var thisTop = jQuery(this).offset().top - $(window).scrollTop();
       if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
         $(this).addClass('SlideRight');
       } else {
         $(this).removeClass('SlideRight');
+		  
       }
     });
   });
