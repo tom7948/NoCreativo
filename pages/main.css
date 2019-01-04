@@ -190,7 +190,7 @@ z-index: 100;
 	width: 160px;
 	z-index: 10;
 	transform: translateX(0);
-	animation: mymove1 5s ease-in-out infinite;
+	animation: mymove1 6s ease-in-out infinite;
 }
 
 #content .cloud2{
