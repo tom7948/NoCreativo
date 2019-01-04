@@ -149,6 +149,7 @@ body{
 }
 
 #homePageContent{
+	position: relative;
 	height: 740px;
 	width: 1000px;
 	margin-left: auto;
@@ -159,7 +160,8 @@ body{
 }
 
 #homePageContent img{
-    margin-top: 108px;
+	overflow: hidden;
+    margin-top: 105px;
 	width: 800px;
 	
 }
@@ -178,7 +180,44 @@ font-weight: normal;
 line-height: normal;
 font-size: 64px;
 color: #C2953E;
+z-index: 100;
 }
+
+#content .cloud1{
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 160px;
+	z-index: 10;
+	transform: translateX(0);
+	animation: mymove1 5s ease-in-out infinite;
+}
+
+#content .cloud2{
+	position: absolute;
+	top:0;
+	display: inline-block;
+	width: 140px;
+	z-index: 10;
+	transform: translateX(-850px);
+	animation: mymove2 6s ease-in-out infinite;
+}
+
+@-webkit-keyframes mymove1 {
+  0% {transform:  translateX(0);}
+  50% {transform:  translateX(100px);}
+  100% {transform:  translateX(0px);}
+  
+}
+
+@-webkit-keyframes mymove2 {
+  0% {transform:  translateX(-850px);}
+  50% {transform:  translateX(-750px);}
+  100% {transform:  translateX(-850px);}
+  
+}
+
+
 
 h1{
 	position: relative;
@@ -245,80 +284,126 @@ margin-top: 50px;
 }
 
 #skillBar div{
+	position: relative;
 	background-color: lightslategrey;
-	opacity: .6;
+	opacity: .7;
 	width: 20px;
 	height: 200px;
 	border-radius: 10px;
 	margin-top:30px;
 	z-index: 1;
+	overflow: hidden;
 }
 
 .skill1{
+	position: absolute;
+	bottom: 0;
 	background: #FFF3DC;
 	opacity: 1;
 	width: 20px;
-	height: 130px;
+	height: 0px;
 	border-radius: 10px;
-	margin-top:70px;
 	z-index: 10;
+	transition: .7s ease;
+}
+
+.skill1_up{
+	height: 120px;
 }
 
 .skill2{
+	position: absolute;
+	bottom: 0;
 	background: #FFF3DC;
 	opacity: 1;
 	width: 20px;
-	height: 150px;
+	height: 0px;
 	border-radius: 10px;
-	margin-top:50px;
 	z-index: 10;
+	transition: .85s ease;
 }
+
+.skill2_up{
+	height: 150px;
+}
+
 .skill3{
+	position: absolute;
+	bottom: 0;
 	background: #FFF3DC;
 	opacity: 1;
 	width: 20px;
-	height: 160px;
+	height: 0px;
 	border-radius: 10px;
-	margin-top:40px;
 	z-index: 10;
+	transition: 1s ease;
+}
+
+.skill3_up{
+	height: 160px;
 }
 
 .skill4{
+	position: absolute;
+	bottom: 0;
 	background: #FFF3DC;
 	opacity: 1;
 	width: 20px;
-	height: 150px;
+	height: 0px;
 	border-radius: 10px;
-	margin-top:50px;
 	z-index: 10;
+	transition: 1.15s ease;
 }
+
+.skill4_up{
+	height: 150px;
+}
+
 .skill5{
+	position: absolute;
+	bottom: 0;
 	background: #FFF3DC;
 	opacity: 1;
 	width: 20px;
-	height: 160px;
+	height: 0px;
 	border-radius: 10px;
-	margin-top:40px;
 	z-index: 10;
+	transition: 1.3s ease;
+}
+
+.skill5_up{
+	height: 160px;
 }
 .skill6{
+	position: absolute;
+	bottom: 0;
 	background: #FFF3DC;
 	opacity: 1;
 	width: 20px;
-	height: 130px;
+	height: 0px;
 	border-radius: 10px;
-	margin-top:70px;
 	z-index: 10;
+	transition: 1.45s ease;
+}
+
+.skill6_up{
+	height: 130px;
 }
 
 .skill7{
+	position: absolute;
+	bottom: 0;
 	background: #FFF3DC;
 	opacity: 1;
 	width: 20px;
-	height: 140px;
+	height: 0px;
 	border-radius: 10px;
-	margin-top:60px;
 	z-index: 10;
+	transition: 1.6s ease;
+}
+
+.skill7_up{
+	height: 140px;
 }
 
 #skillText{
