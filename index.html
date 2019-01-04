@@ -7,7 +7,7 @@
         <title>Tom's Studio</title>
         <meta name="description" content="An interactive getting started guide for Brackets.">
         <link rel="stylesheet" type="text/css" href="pages/main.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
         <script>
 	  $(document).ready(function(){
@@ -22,7 +22,7 @@
 
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, function(){
+      }, 760, function(){
    
        
         window.location.hash = hash;
@@ -31,6 +31,7 @@
   });
 });
 	</script>
+        
 	
 </head>
 <body>
@@ -51,11 +52,13 @@
 		</nav>
 	<div id="homePage">
 		<div id="homePageContent">
-			<img  src="source/web_baground.png" alt="">
+			<img  src="source/web_baground2.png" alt="">
 			<span id="content">
+			<img class="cloud1" src="source/cloud1.png" alt="">
+			<img class="cloud2" src="source/cloud2.png" alt="">
 				<h1>Hello,</h1>
 		        <h2>I am Tom</h2>
-		<p>A UI and multimedia Designer</p>
+		<p>A UX/UI and Interaction Designer</p>
 			</span>
 			
 		</div>
@@ -65,7 +68,7 @@
 	  <img class="logo1" src="source/logo_web_Greymyself.png" alt="">
 		
 	  <div class="text1">
-	  	Hi, I am an UI and multimedia designer based in Melbourne, Australia. I am keen on user experience and interface on web and application. In addition, I enjoy learning new things, meeting people to talk about design, video, innovative ideas over coffee or beers.
+	  	Hi, I am UX/UI and multimedia designer based in Melbourne, Australia. I am keen on user experience and interface on web and application. In addition, I enjoy learning new things, meeting people to talk about design, video, innovative ideas over coffee or beers.
 	  </div>
 		
 		<div id="text">
@@ -193,6 +196,102 @@
 		});
 		
 	</script>
+	
+	
+	<script>
+	var windowHeight = window.innerHeight,
+    gridTop = windowHeight * 0.15,
+    gridBottom = windowHeight * 0.9;
+	
+	
+    $(window).on('scroll', function() {
+      $('section.skill1').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('skill1_up');
+      } else {
+        $(this).removeClass('skill1_up');
+		  
+      }
+    });
+  });
+		
+		$(window).on('scroll', function() {
+      $('section.skill2').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('skill2_up');
+      } else {
+        $(this).removeClass('skill2_up');
+		  
+      }
+    });
+  });
+		
+		$(window).on('scroll', function() {
+      $('section.skill3').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('skill3_up');
+      } else {
+        $(this).removeClass('skill3_up');
+		  
+      }
+    });
+  });
+		
+		$(window).on('scroll', function() {
+      $('section.skill4').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('skill4_up');
+      } else {
+        $(this).removeClass('skill4_up');
+		  
+      }
+    });
+  });
+		
+		$(window).on('scroll', function() {
+      $('section.skill5').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('skill5_up');
+      } else {
+        $(this).removeClass('skill5_up');
+		  
+      }
+    });
+  });
+		
+		$(window).on('scroll', function() {
+      $('section.skill6').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('skill6_up');
+      } else {
+        $(this).removeClass('skill6_up');
+		  
+      }
+    });
+  });
+		
+		$(window).on('scroll', function() {
+      $('section.skill7').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('skill7_up');
+      } else {
+        $(this).removeClass('skill7_up');
+		  
+      }
+    });
+  });
+
+  $(window).trigger('scroll');
+	</script>
+	
+
 	
 </body>
 </html>
