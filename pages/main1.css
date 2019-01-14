@@ -357,8 +357,8 @@ color: #C2953E;
 #footer p{
 	font-family: Roboto;
 font-style: normal;
-font-weight: 300;
-line-height: normal;
+font-weight: 400;
+line-height: 1.5;
 font-size: 18px;
 text-align: center;
 padding-top: 25px;
@@ -367,7 +367,6 @@ width: 600px;
 margin-right: auto;
 	margin-left: auto;
 }
-
 #messager{
 	background:#FFF3DC;
 	width: 200px;
