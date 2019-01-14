@@ -223,13 +223,13 @@ z-index: 100;
 h1{
 	position: relative;
 	margin-left: -250px;
-	text-shadow: 3px 2px grey;
+	
 }
 
 h2{
 	position: relative;
 	margin-right: -250px;
-	text-shadow: 3px 2px grey;
+	
 }
 
 #content p{
