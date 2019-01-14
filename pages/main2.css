@@ -213,11 +213,12 @@ color: #C2953E;
 	margin-top:30px;
 	font-family: Roboto;
     font-style: normal;
-    font-weight:100;
-    line-height: normal;
+    font-weight:400;
+    line-height: 1.5;
     font-size: 18px;
     text-align: center;
 	margin-bottom: 50px;
+	color: #484848;
 	
 }
 
@@ -299,12 +300,12 @@ color: white;
 h5{
 	font-family: Roboto;
 font-style: normal;
-font-weight: 500;
-line-height: normal;
-font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+font-size: 16px;
 text-align: center;
 margin-top: 20px;
-color: #000000;
+color: #484848;
 	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
@@ -366,17 +367,16 @@ color: #C2953E;
 #footer p{
 	font-family: Roboto;
 font-style: normal;
-font-weight: 500;
-line-height: normal;
+font-weight: 400;
+line-height: 1.5;
 font-size: 18px;
 text-align: center;
 padding-top: 25px;
-color: #000000;
+color: #484848;
 width: 600px;
 margin-right: auto;
 	margin-left: auto;
 }
-
 #messager{
 	background:#FFF3DC;
 	width: 200px;
