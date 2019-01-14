@@ -448,11 +448,23 @@ color: #484848;
 	
 }
 
+.containerImg3{
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	background:red;
+	
+}
+
 .img3{
 	width: 200px;
 	margin-left: 50px;
 	margin-top: 50px;
+	border-radius: 50%; 
+	box-shadow: 2px 4px 5px grey;"
+	
 }
+
 
 .img4{
 	position: relative;
