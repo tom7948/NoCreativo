@@ -18,7 +18,7 @@ body{
 
 .header a{
 	text-decoration: none;
-	color: #C2943E;
+	color: #EBC566;
 }
 
 .header{
@@ -32,7 +32,7 @@ body{
 }
 
 .bg-color{
-	background: #FFF3DC;
+	background: #060627;
 }
 
 .bg-color.scrolled{
@@ -72,7 +72,7 @@ body{
 .menu{
 	position: relative;
 	top:-60px;
-	color: #C2943E;
+	color: #EBC566;
 	font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -87,7 +87,7 @@ body{
 .menu.scrolled{
 	position: relative;
 	top:-40px;
-	color: #C2943E;
+	color: #EBC566;
 	font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -146,7 +146,7 @@ body{
 #homePage{
 	height: 740px;
 	width: 100%;
-	background: #FFF3DC;
+	background: #060627;
 }
 
 #homePageContent{
@@ -162,9 +162,38 @@ body{
 
 #homePageContent img{
 	overflow: hidden;
-    margin-top: 105px;
+	position:relative;
+    margin-top: 80px;
+	margin-left: -10px;
 	width: 800px;
+	z-index: 100;
+	animation: igloo 3s ease infinite;
 	
+}
+
+@-webkit-keyframes igloo {
+  0% {transform:  translateY(0px);}
+  50% {transform:  translateY(-10px);}
+  100% {transform:  translateY(0px);}
+  
+}
+
+
+
+
+#homePageContent #glow{
+    top:-800px;
+	left:-170px;
+	width: 1300px;
+	z-index: 1;
+	animation: glow 3s ease infinite;
+}
+
+@-webkit-keyframes glow {
+  0% {transform:  translateY(0px);}
+  50% {transform:  translateY(0px);}
+  100% {transform:  translateY(0px);}
+  
 }
 
 #content{
@@ -180,8 +209,18 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 64px;
-color: #C2953E;
+color: #EBC566;
 z-index: 100;
+top:-750px;
+animation: testGlow 6s ease infinite;
+}
+
+
+@-webkit-keyframes testGlow {
+  0% {text-shadow: 0px 0px  white; }
+  50% {text-shadow: -3px 1px 2px white; }
+  100% {text-shadow: 0px 0px  white; }
+  
 }
 
 #content .cloud1{
@@ -233,14 +272,16 @@ h2{
 }
 
 #content p{
-	
+position: relative;
 font-family: Days One;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 15px;
-color: #EAB44E;
-margin-top:30px;
+color: white;
+margin-top:-500px;
+	z-index: 100;
+
 }
 
 #mainPage{
@@ -273,7 +314,7 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 55px;
-color: #C2953E;
+color: #EBC566;
 margin-top: 50px;
 }
 
@@ -289,7 +330,7 @@ margin-top: 50px;
 
 #skillBar div{
 	position: relative;
-	background-color: #484848;
+	background-color: #060627;
 	opacity: .7;
 	width: 20px;
 	height: 200px;
@@ -523,13 +564,13 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 25px;
-color: #EAB44E;
 	margin-top: 50px;
 	transition: .4s ease;
+	color: #060627;
 }
 
 #designSection h3:hover {
-	transform: scale(1.2);
+	transform: scale(1.15);
 }
 
 #designSection p{
@@ -550,7 +591,7 @@ color: #484848;
 #mySystem{
 	width: 100%;
 	height: 150px;
-	background:#FFF3DC;
+	background:#060627;
 	text-align: center;
 }
 
@@ -561,7 +602,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 55px;
 padding-top:20px;
-color: #C2953E;
+color: #EBC566;
 }
 
 #mySystem p{
@@ -572,7 +613,7 @@ line-height: normal;
 font-size: 18px;
 text-align: center;
 padding-top: 10px;
-color: #EAB44E;
+color: white;
 }
 
 #footer{
@@ -586,7 +627,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 55px;
 margin-top:100px;
-color: #C2953E;
+color: #EBC566;
 }
 
 #footer p{
@@ -617,7 +658,7 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 20px;
-color: #EAB44E;
+color: #EBC566;
 	padding-top: 18px;
 }
 
