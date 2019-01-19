@@ -317,6 +317,7 @@ color: #EBC566;
 	margin-right: auto;
 	border-radius: 20px;
 	width: 600px;
+	padding-bottom: 20px;
 	transition: 1s ease-in-out;
 }
 .colorChange{
@@ -415,12 +416,13 @@ color: #484848;
 
 #readMore{
 	margin-top: 20px;
+	position: relative;
 	width: 200px;
 	height: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	background: #484848;
-	color: white;
+	background: white;
+	color: #484848;
 	border-radius: 10px;
 	font-family: Roboto;
    font-style: normal;
@@ -430,16 +432,16 @@ color: #484848;
    text-align: center;
    padding-top: 15px;
    transition: .3s ease;
-	box-shadow: 0px 3px black;
+	box-shadow: 0 4px  3px #484848;
 	
 }
 
 #readMore:hover {
-	animation: jiggle 2s infinite ease-in;
+	animation: jiggle 1.2s infinite ease-in;
 }
 
 @keyframes jiggle {
-  30%, 65% {
+  15%, 65% {
     transform: scale(1.0, 1.0)
   }
   50% {
