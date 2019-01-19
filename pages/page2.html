@@ -68,7 +68,7 @@
 	</div>
 	
 	<div id="mainPage">
-		 <div class="title">1232424</div>
+		 
 		 
 		 
 		<img class="logo1" src="../source/design.png" alt="">
@@ -80,7 +80,7 @@
 	  <div class="text1">
 	  	Below are the selection of my recent works. There are interaction (UX/UI) and multimedia field. For more up to the minute work you can click the button
 	  </div>
-	 
+	 <div class="title">1232424</div>
 	 
 	  <section class="project">
 	   <section class="blueColor"></section>
@@ -235,34 +235,23 @@
 	</script>
 	
 	
+	
+	
 	<script>
 		$(window).scroll(function(){
 			
-			$('div.title').each(function(x,i){ 
-				console.log(($(x).scrollTop));
-				
-				if($(x).scrollTop() > 1000){
+			if($(window).scrollTop() > 2700){
 					
-					$('div.title').text("000 design");
+					$('div.title').text("Multimedia Design");
 					
 				} else {
-                    $('div.title').text("1234 design");
+                    $('div.title').text("Interaction & UX/UI");
 					
 		       }
-			  }
-			
-			
-			)
 		});
 		
-		
-		
+	
 	</script>
-	
-	
-	
-	
-	
-	
+
 </body>
 </html>
