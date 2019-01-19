@@ -273,11 +273,11 @@ color: #EBC566;
 	text-align: left;
 	transform: rotate(-90deg);
 	position:sticky;
-	margin-left:-65%;
+	margin-right:65%;
 	font-size: 28px;
-	opacity: .6;
+	opacity: .3;
 	z-index: 1000;
-	top:-70%;
+	top:20%;
 	transition: 1s ease;
 	
 }
