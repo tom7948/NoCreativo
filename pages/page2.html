@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="test.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
+        
         <script>
 	  $(document).ready(function(){
 
@@ -32,6 +33,7 @@
   });
 });
 	</script>
+	
 </head>
 <body>
      <nav class="header bg-color">
@@ -52,7 +54,7 @@
 	
 	<div id="homePage">
 		<div id="homePageContent">
-			<img  src="../source/web_baground2.png" alt="">
+			<img  src="../source/web_baground_new.png" alt="">
 			
 			<span id="content">
 			<img class="cloud1" src="../source/cloud1.png" alt="">
@@ -66,7 +68,9 @@
 	</div>
 	
 	<div id="mainPage">
-		
+		 <div class="title">1232424</div>
+		 
+		 
 		<img class="logo1" src="../source/design.png" alt="">
 		
 		<h2>
@@ -76,15 +80,15 @@
 	  <div class="text1">
 	  	Below are the selection of my recent works. There are interaction (UX/UI) and multimedia field. For more up to the minute work you can click the button
 	  </div>
-	  
-	  <div id="banner">
-	  	Interaction and UX/UI works
-	  </div>
-	  <section id="project" style="background:#FCEC97;">
+	 
+	 
+	  <section class="project">
+	   <section class="blueColor"></section>
 	  	<div id="circleContainer">
-	  		<img id="circle" src="../source/compo.png" alt="">
+	  		<img class="circle" src="../source/compo.png" alt="">
 	  	</div>
-	  	<img id="mobile" src="../source/compo_mobile.png" alt="">
+	  	<img class="mobiles" src="../source/compo_mobile.png" alt="">
+	  	<section class="container">
 	  	<h3>COMPO</h3>
 	  	<h4>AR Porject / UI </h4>
 	  	<h5>
@@ -96,13 +100,15 @@
 	  		
 	  	</div>
 	  	</a>
+	  	</section>
 	  </section>
 	 
-	   <section id="project" style="background:#F6C5C8;">
+	   <section class="project" >
 	  	<div id="circleContainer">
-	  		<img id="circle" src="../source/hifi.png" alt="">
+	  		<img class="circle" src="../source/hifi.png" alt="">
 	  	</div>
-	  	<img id="mobile" src="../source/hifi_mobile.png" alt="">
+	  	<img class="mobiles" src="../source/hifi_mobile.png" alt="">
+	  	<section class="container">
 	  	<h3>HIFI</h3>
 	  	<h4>Futuristic Porject / UI </h4>
 	  	<h5>
@@ -115,13 +121,11 @@
 	  	</div>
 	  	</a>
 	  </section>
+		</section>
 	  
 	  
-	  
-	   <div id="banner">
-	  	Multimedia Design works
-	  </div>
-	  <section id="project" style="background:#85BCA8;">
+	  <br>
+	  <section class="project">
 	  	
 	  		<div class="buddy">
   <div class="zzz"> <span>Z</span><span>Z</span><span>Z</span>
@@ -136,7 +140,7 @@
   </div>
   <div class="mouth"> <span>HEY!!</span></div>
 </div>
-	  	
+	  	<section class="container">
 	  	<h3>Visual Content</h3>
 	  	<h4>Animation / Video / Logo Design </h4>
 	  	<h5>
@@ -147,6 +151,7 @@
 	  	</div></a>
 	  	
 	  </section>
+		</section>
 	 
 		
 	 
@@ -179,13 +184,85 @@
 	</div>
 	<script>
 		$(window).scroll(function(){
-			$('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 800);
 			
-			$('img').toggleClass('scrolled', $(this).scrollTop() > 650);
+			$('img').toggleClass('scrolled', $(this).scrollTop() > 800);
 			
-			$('section').toggleClass('scrolled', $(this).scrollTop() > 650);
+			$('section').toggleClass('scrolled', $(this).scrollTop() > 800);
 		});
 		
 	</script>
+	
+	<script>
+	var windowHeight = window.innerHeight,
+    gridTop = windowHeight * -0.3,
+    gridBottom = windowHeight * 1.4;
+	
+	
+    $(window).on('scroll', function() {
+      $('img.mobiles').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('Change');
+      } else {
+        $(this).removeClass('Change');
+		  
+      }
+    });
+  });
+
+  $(window).trigger('scroll');
+	</script>
+	<script>
+	var windowHeight = window.innerHeight,
+    gridTop = windowHeight * 0,
+    gridBottom = windowHeight * 1.3;
+	
+	
+    $(window).on('scroll', function() {
+      $('section.container').each(function() {
+      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+        $(this).addClass('colorChange');
+      } else {
+        $(this).removeClass('colorChange');
+		  
+      }
+    });
+  });
+
+  $(window).trigger('scroll');
+	</script>
+	
+	
+	<script>
+		$(window).scroll(function(){
+			
+			$('div.title').each(function(x,i){ 
+				console.log(($(x).scrollTop));
+				
+				if($(x).scrollTop() > 1000){
+					
+					$('div.title').text("000 design");
+					
+				} else {
+                    $('div.title').text("1234 design");
+					
+		       }
+			  }
+			
+			
+			)
+		});
+		
+		
+		
+	</script>
+	
+	
+	
+	
+	
+	
 </body>
 </html>
