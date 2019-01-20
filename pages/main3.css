@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 @import url('https://fonts.googleapis.com/css?family=Days+One|Roboto:700');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 *{
 	margin: 0;
@@ -16,14 +15,14 @@ body{
 
 #header a{
 	text-decoration: none;
-	color: #C2943E;
+	color: #EBC566;
 }
 
 
 
 .header a{
 	text-decoration: none;
-	color: #C2943E;
+	color: #EBC566;
 }
 
 .header{
@@ -37,7 +36,7 @@ body{
 }
 
 .bg-color{
-	background: #FFF3DC;
+	background: #FFF0DC;
 }
 
 .bg-color.scrolled{
@@ -77,7 +76,7 @@ body{
 .menu{
 	position: relative;
 	top:-60px;
-	color: #C2943E;
+	color: #EBC566;
 	font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -92,7 +91,7 @@ body{
 .menu.scrolled{
 	position: relative;
 	top:-40px;
-	color: #C2943E;
+	color: #EBC566;
 	font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -151,7 +150,7 @@ body{
 #homePage{
 	height: 250px;
 	width: 100%;
-	background: #FFF3DC;
+	background: #FFF0DC;
 }
 
 #homePageContent{
@@ -184,12 +183,15 @@ body{
 }
 
 #content h1{
-	font-family: Days One;
+font-family: Days One;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
+position: relative;
+margin-top: 10px;
+text-shadow: -1px 3px  grey;
 font-size: 64px;
-color: #C2953E;
+color: #EBC566;
 }
 
 #mainPage{
@@ -332,25 +334,25 @@ font-weight: normal;
 line-height: normal;
 font-size: 55px;
 margin-top:100px;
-color: #C2953E;
+color: #EBC566;
 }
 
 #footer p{
 	font-family: Roboto;
 font-style: normal;
-font-weight: 500;
-line-height: normal;
+font-weight: 400;
+line-height: 1.5;
 font-size: 18px;
 text-align: center;
 padding-top: 25px;
-color: #000000;
+color: #484848;
 width: 600px;
 margin-right: auto;
 	margin-left: auto;
 }
 
 #messager{
-	background:#FFF3DC;
+	background:#FFF0DC;
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
@@ -363,7 +365,7 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 20px;
-color: #EAB44E;
+color: #EBC566;
 	padding-top: 18px;
 }
 
