@@ -13,12 +13,12 @@ body{
 
 #mainPage a{
 	text-decoration: none;
-	color: #EAB44E;
+	color: #EBC566;
 }
 
 .header a{
 	text-decoration: none;
-	color: #C2943E;
+	color: #EBC566;
 }
 
 .header{
@@ -32,7 +32,7 @@ body{
 }
 
 .bg-color{
-	background: #FFF3DC;
+	background: #FFF0DC;
 }
 
 .bg-color.scrolled{
@@ -72,7 +72,7 @@ body{
 .menu{
 	position: relative;
 	top:-60px;
-	color: #C2943E;
+	color: #EBC566;
 	font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -87,7 +87,7 @@ body{
 .menu.scrolled{
 	position: relative;
 	top:-40px;
-	color: #C2943E;
+	color: #EBC566;
 	font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -144,7 +144,7 @@ body{
 #homePage{
 	height: 250px;
 	width: 100%;
-	background: #FFF3DC;
+	background: #FFF0DC;
 }
 
 #homePageContent{
@@ -181,7 +181,8 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 64px;
-color: #C2953E;
+color: #EBC566;
+	text-shadow: -1px 3px  grey;
 }
 
 #mainPage{
@@ -351,7 +352,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 55px;
 margin-top:100px;
-color: #C2953E;
+color: #EBC566;
 }
 
 #footer p{
@@ -367,8 +368,9 @@ width: 600px;
 margin-right: auto;
 	margin-left: auto;
 }
+
 #messager{
-	background:#FFF3DC;
+	background:#FFF0DC;
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
@@ -381,7 +383,7 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 20px;
-color: #EAB44E;
+color: #EBC566;
 	padding-top: 18px;
 }
 
