@@ -291,6 +291,8 @@ margin-top:-500px;
 .logo1{
 	width: 150px;
 	margin-top: 50px;
+	border-radius: 50%;
+	box-shadow: 2px 4px 5px grey;
 }
 
 .text1{
@@ -566,7 +568,7 @@ line-height: normal;
 font-size: 25px;
 	margin-top: 50px;
 	transition: .4s ease;
-	color: #060627;
+	color: #EBC566;
 }
 
 #designSection h3:hover {
@@ -645,7 +647,7 @@ margin-right: auto;
 }
 
 #messager{
-	background:#FFF0DC;
+	background:#FFF3DC;
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
