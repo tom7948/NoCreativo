@@ -61,6 +61,7 @@ body{
 	width: 80px;
 	top:10px;
 	transition: .3s ease;
+	
 }
 
 .logoimg.scrolled{
@@ -251,6 +252,8 @@ color: #EBC566;
 .logo1{
 	width: 150px;
 	margin-top: 100px;
+	border-radius: 50%;
+	box-shadow: 2px 4px 5px grey;
 }
 
 .text1{
@@ -432,7 +435,8 @@ color: #484848;
    text-align: center;
    padding-top: 15px;
    transition: .3s ease;
-	box-shadow: 0 4px  3px #484848;
+	box-shadow: 0 4px  5px grey;
+	
 	
 }
 
@@ -484,7 +488,7 @@ margin-right: auto;
 }
 
 #messager{
-	background:##FFF0DC;
+	background:#FFF3DC;
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
