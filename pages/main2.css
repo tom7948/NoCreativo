@@ -377,9 +377,31 @@ color: #EBC566;
 	left:100px;
 	top:105px;
 	transition: .5s ease;
+
+}
+
+.Change2{
+	transition: 1s ease;
+	transform: translateX(-200px);
+	box-shadow: 0px 3px 7px grey;
+	opacity: 1;
 	
 	
-	
+}
+
+
+
+.tablet{
+	position: relative;
+	width: 450px; 
+	z-index: 100;
+	display: inline-block;
+	margin-left:-350px;
+	left:450px;
+	top:105px;
+	transition: .5s ease;
+	border-radius: 9%;
+
 }
 
 h3{
@@ -523,7 +545,6 @@ color: #EBC566;
     font-weight: 500;
     line-height: normal;
     font-size: 18px;
-	
 }
 
 #contactMe img{
