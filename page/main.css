@@ -1829,7 +1829,7 @@ section .wave:after{
 	
 .header .frontPic{
 				width: 95%;
-				margin-top: 40%;
+				margin-top: 35%;
 			}
 			
 			.hidden,.shown,.wait{
@@ -1842,7 +1842,35 @@ section .wave:after{
 	            left: 3%;
 			}
 	
+.intro{
+	position: relative;
+	margin: 10em auto 15em auto;
+	background:#33363C;
+	border-radius: 5%;
+	color: #fff;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	line-height: 2.2;
+	z-index: 3;
+	opacity: .9;
+}
 
+.intro > h2{
+	font-size: 42px;
+	width: 300px;
+    font-weight: 900;
+}
+.intro > p{
+	width: 430px;
+	margin-bottom: 30px;
+    font-weight: 500;
+	
+}
+
+	
 .boat {
 	
 	width: 18vw;
@@ -1964,14 +1992,14 @@ section .wave:after{
 	
 	width: 90vw;
 	top:25%;
-	left: 2%;
+	left: 8%;
 	
 }
 
 
 .projects .juiceSwipe{
 
-	left: 2%;
+	left: 8%;
 }
 
 
@@ -1979,24 +2007,24 @@ section .wave:after{
 	
 	width: 75vw;
 	top:22%;
-	left: 6%;
+	left: 10%;
 
 }
 
 .projects .ruboSwipe{	
-	left: 6%;
+	left: 10%;
 }
 
 .projects .compo{
 	width: 38vw;
 	top:20%;
-	left: 22%;
+	left: 26%;
 }
 
 
 .projects .compoSwipe{
 	
-	left: 22%;
+	left: 26%;
 	
 }
 
