@@ -1792,12 +1792,11 @@ section .wave:after{
 
 @media only screen and (max-width: 480px){
 	body{
-		max-width: 100%;
-		overflow: auto;
+		overflow-x:inherit;
 	}
 	
 	.bigWrap{
-	
+	max-width: 100%;
 	overflow-x: hidden;
 
 	}
@@ -2007,24 +2006,24 @@ section .wave:after{
 	
 	width: 75vw;
 	top:22%;
-	left: 9%;
+	left: 8%;
 
 }
 
 .projects .ruboSwipe{	
-	left: 9%;
+	left: 8%;
 }
 
 .projects .compo{
 	width: 38vw;
 	top:20%;
-	left: 25%;
+	left: 24%;
 }
 
 
 .projects .compoSwipe{
 	
-	left: 25%;
+	left: 24%;
 	
 }
 
