@@ -10,6 +10,12 @@ body{
 	overflow-x: hidden;
 	
 }
+
+.bigWrap{
+	position: relative;
+	
+	
+}
 /*newslideMenu*/
   .slide_screen{
 	position: absolute;
@@ -1785,8 +1791,17 @@ section .wave:after{
 
 
 @media only screen and (max-width: 480px){
+	body{
+		max-width: 100%;
+		overflow: auto;
+	}
 	
+	.bigWrap{
 	
+	overflow-x: hidden;
+
+	}
+
 	
 	.logo .img-fluid{
 		
@@ -1814,7 +1829,7 @@ section .wave:after{
 	
 .header .frontPic{
 				width: 95%;
-				margin-top: 45%;
+				margin-top: 40%;
 			}
 			
 			.hidden,.shown,.wait{
