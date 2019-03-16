@@ -474,7 +474,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 	
 	.styled-input label {
-    color: #999;
+    color: #DE9262;
     padding: 1vw 0vw 0vw 1.5vw;
     position: absolute;
     top: 2px;
