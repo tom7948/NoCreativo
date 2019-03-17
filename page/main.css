@@ -794,26 +794,34 @@ section .wave:after{
 }
 
 .projects h2{
+	display: inline-block;
+	width: 100%;
 	color: white;
 	font-size: 65px;
 	font-family: "Oswald";
     font-style: normal;
     font-weight: 800;
 	letter-spacing: 1vw;
+	text-align: center;
 }
 
 .projects h4{
+	display: inline-block;
+	width: 100%;
 	color: #DE9262;
 	font-size: 25px;
 	font-family: copperplate, serif;
 	font-style: normal;
     font-weight: 500;
 	margin-bottom: 2em;
+	text-align: center;
 }
 
 .projects p{
+	display: inline-block;
 	color: white;
-	font-size: 1.2vw;
+	width: 90%;
+	font-size: 1.3vw;
 	text-align: center;
 	line-height: 2;
 	margin-bottom: 2em;
