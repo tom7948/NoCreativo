@@ -852,27 +852,7 @@ section .wave:after{
     font-weight: 400;
 }
 
-/*
-.projects button{
-	width: 200px;
-	height: 50px;
-	border-radius: 20px;
-	border: transparent;
-	background:#2A2C2F;
-	background:#2A2C2F;
-	box-shadow: 2px 3px black;
-	font-family: copperplate, serif;
-	font-style: normal;
-    font-weight: 500;
-}
 
-.projects button a {
-	text-decoration: none;
-	color: #DE9262;
-	color: #DE9262;
-	font-size: 18px;
-}
-*/
 
 .projects .circle_area{
 	position: relative;
@@ -1803,7 +1783,7 @@ section .wave:after{
 
 	
 	.logo .img-fluid{
-		
+		top:10px;
 		width: 48px;
 		margin:6px 1px;
 		
@@ -2006,12 +1986,12 @@ section .wave:after{
 	
 	width: 75vw;
 	top:22%;
-	left: 8.5%;
+	left: 7.5%;
 
 }
 
 .projects .ruboSwipe{	
-	left: 8.5%;
+	left: 7.5%;
 }
 
 .projects .compo{
