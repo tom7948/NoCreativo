@@ -1832,12 +1832,12 @@ section .wave:after{
 			
 .hidden,.shown,.wait{
 		 width: 100vw;
-                font-size: 12vw;
+                font-size: 11.5vw;
 			}
 			
 			.header .frontPic .title{
 				top: 55%;
-	            left: 3%;
+	            left: 0%;
 			}
 	
 
