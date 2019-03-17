@@ -1177,21 +1177,19 @@ textarea {
 
 	}
 	
+	
+
 	.logo .img-fluid{
-		
+		top:10px;
 		width: 48px;
 		margin:6px 1px;
-		
-		
-		
 		
 	}
 	.menu_btn{
 	width: 48px;
 	height: 48px;
 	margin: 6px 1px;
- 
-	
+
 }
 	
 	
