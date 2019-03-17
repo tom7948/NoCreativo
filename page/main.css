@@ -379,8 +379,8 @@ body{
 .header .frontPic .title{
 	text-align: center;
     position: absolute;
-	top: 58%;
-	left: -16%;	
+	top: 54%;
+	left: -10%;	
 	z-index: 2;
 }
 
@@ -388,16 +388,17 @@ body{
 .hidden,.shown,.wait{
    position: absolute;
     display:inline-block;
-	width: 70vw;
+	width:68vw;
     text-align: center;
-	font-size: 7vw;
+	font-size: 6.7vw;
     bottom: -1em;
     color: transparent;
     transition-duration: .3s;
     visibility: hidden;
-	font-family: countach, sans-serif;
+	font-family: "Oswald";
     font-style: normal;
     font-weight: 700;
+	letter-spacing: .6vw;
 }
 .hidden{
     bottom: 1em;
@@ -513,7 +514,7 @@ body{
 	background:#33363C;
 	border-radius: 5%;
 	color: #fff;
-	width: 600px;
+	width: 50vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -521,13 +522,14 @@ body{
 	line-height: 2.2;
 	z-index: 3;
 	opacity: .9;
+	box-shadow: 5px 5px 100px black;
 }
 
 .intro > h2{
-	font-size: 50px;
-	margin:30px 0;
+	font-size: 70px;
+	margin:80px 0 40px 0;
 	width: 350px;
-	font-family: countach, sans-serif;
+	font-family: "Oswald";
     font-style: normal;
     font-weight: 900;
 }
@@ -536,13 +538,13 @@ body{
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-	width: 460px;
+	width: 35vw;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 	font-family: countach, sans-serif;
     font-style: normal;
     font-weight: 400;
-	font-size: 18px;
+	font-size: 22px;
 	
 }
 
@@ -794,9 +796,10 @@ section .wave:after{
 .projects h2{
 	color: white;
 	font-size: 65px;
-	font-family: countach, sans-serif;
+	font-family: "Oswald";
     font-style: normal;
     font-weight: 800;
+	letter-spacing: 1vw;
 }
 
 .projects h4{
@@ -810,7 +813,7 @@ section .wave:after{
 
 .projects p{
 	color: white;
-	font-size: 18px;
+	font-size: 1.2vw;
 	text-align: center;
 	line-height: 2;
 	margin-bottom: 2em;
@@ -933,10 +936,11 @@ section .wave:after{
 	top:300px;
 	color: white;
 	font-size: 85px;
-	font-family: countach, sans-serif;
+	font-family: "Oswald";
     font-style: normal;
     font-weight: 700;
 	z-index: 2;
+	letter-spacing: .5vw;
 }
 
 .footer a{
@@ -1119,6 +1123,28 @@ section .wave:after{
 	            left: -7%;
 			}
 	
+	
+	
+	/*IntroPart*/
+.intro{
+
+	margin: 10em auto 15em auto;
+	width: 60vw;
+	
+}
+
+.intro > h2{
+	font-size: 70px;
+	margin:80px 0 40px 0;
+	width: 350px;
+	}
+.intro > p{
+	width: 40vw;
+	margin-bottom: 80px;
+	font-size: 20px;
+	
+}
+	
 .projects .row .item{
 	display: inline-block;
 	padding: 0vw 6vw;
@@ -1181,7 +1207,24 @@ section .wave:after{
 
 @media only screen and (max-width:1130px){
 	
+	.intro{
+
+	margin: 10em auto 15em auto;
+	width: 60vw;
 	
+}
+
+.intro > h2{
+	font-size: 65px;
+	margin:80px 0 40px 0;
+	width: 350px;
+	}
+.intro > p{
+	width: 40vw;
+	margin-bottom: 80px;
+	font-size: 18px;
+	
+}
 
 	
 	.skillset{
@@ -1565,17 +1608,18 @@ section .wave:after{
 
    
 .intro{
-	margin: 10em auto 8em auto;
-	width: 450px;
+	margin: 12em auto 8em auto;
+	width: 75vw;
 	line-height: 2;
 }
 
 .intro > h2{
-	font-size: 40px;
+	width: 50vw;
+	font-size: 50px;
 }
 .intro > p{
-	width: 380px;
-	font-size: 14px;
+	width: 66vw;
+	font-size: 2.6vw;
 	
 }
 
@@ -1750,7 +1794,7 @@ section .wave:after{
 
 	
 	.logo .img-fluid{
-		top:9px;
+		top:10px;
 		width: 48px;
 		margin:6px 1px;
 		
@@ -1788,33 +1832,6 @@ section .wave:after{
 	            left: 3%;
 			}
 	
-.intro{
-	position: relative;
-	margin: 10em auto 15em auto;
-	background:#33363C;
-	border-radius: 5%;
-	color: #fff;
-	width: 600px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	line-height: 2.2;
-	z-index: 3;
-	opacity: .9;
-}
-
-.intro > h2{
-	font-size: 42px;
-	width: 300px;
-    font-weight: 900;
-}
-.intro > p{
-	width: 430px;
-	margin-bottom: 30px;
-    font-weight: 500;
-	
-}
 
 	
 .boat {
@@ -1842,8 +1859,8 @@ section .wave:after{
 	font-size: 10vw;
 }
 .intro > p{
-	width: 65vw;
-	font-size: 3vw;
+	width: 66vw;
+	font-size: 3.5vw;
 	
 }
 	
@@ -1953,12 +1970,12 @@ section .wave:after{
 	
 	width: 75vw;
 	top:22%;
-	left: 10%;
+	left: 7.5%;
 
 }
 
 .projects .ruboSwipe{	
-	left: 10%;
+	left: 7.5%;
 }
 
 .projects .compo{

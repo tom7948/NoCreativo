@@ -409,9 +409,10 @@ body{
 	z-index: 2;
 	color: white;
 	font-size: 85px;
-	font-family: countach, sans-serif;
+	font-family: "Oswald";
     font-style: normal;
     font-weight: 700;
+	letter-spacing: .8vw;
 }
 
 /*bottle*/
@@ -1264,7 +1265,7 @@ textarea {
 	.bottle {
 	
 	width: 240px;
-	left:15%;
+	left:19%;
 	top:17%;
 
 }
