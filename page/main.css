@@ -1864,7 +1864,8 @@ section .wave:after{
 }
 
 .intro > h2{
-	font-size: 10vw;
+	width: 75vw;
+	font-size: 9vw;
 }
 .intro > p{
 	width: 66vw;
