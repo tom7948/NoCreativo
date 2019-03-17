@@ -1264,7 +1264,7 @@ textarea {
 	.bottle {
 	
 	width: 240px;
-	left:20%;
+	left:19%;
 	top:17%;
 
 }
@@ -1333,7 +1333,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 	
 	.styled-input label {
     color: #DE9262;
-    padding: 14px 0vw 0vw 10px;
+    padding: 15px 0vw 0vw 10px;
     position: absolute;
     top: 2px;
     left: 0;
