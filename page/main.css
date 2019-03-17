@@ -1831,8 +1831,8 @@ section .wave:after{
 			}
 			
 .hidden,.shown,.wait{
-		 width: 100vw;
-                font-size: 10vw;
+		 width: 110vw;
+                font-size: 11vw;
 			}
 			
 			.header .frontPic .title{
