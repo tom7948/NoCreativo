@@ -1837,7 +1837,7 @@ section .wave:after{
 			
 			.header .frontPic .title{
 				top: 55%;
-	            left: -3%;
+	            left: -2%;
 			}
 	
 
@@ -1979,12 +1979,12 @@ section .wave:after{
 	
 	width: 75vw;
 	top:22%;
-	left: 7.5%;
+	left: 6%;
 
 }
 
 .projects .ruboSwipe{	
-	left: 7.5%;
+	left: 6%;
 }
 
 .projects .compo{
