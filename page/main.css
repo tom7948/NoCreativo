@@ -1830,9 +1830,9 @@ section .wave:after{
 				margin-top: 35%;
 			}
 			
-			.hidden,.shown,.wait{
-				width: 90vw;
-                font-size: 9vw;
+.hidden,.shown,.wait{
+		 width: 100vw;
+                font-size: 10vw;
 			}
 			
 			.header .frontPic .title{
