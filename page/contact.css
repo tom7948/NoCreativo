@@ -10,6 +10,12 @@ body{
 	overflow-x: hidden;
 	
 }
+
+.bigWrap{
+	position: relative;
+	
+	
+}
 /*newslideMenu*/
   .slide_screen{
 	position: absolute;
@@ -496,7 +502,7 @@ textarea {
     width: 100%;
     font-size: 1.3rem;
     background-color: #2d2d2d;
-    color: white;
+    color: #DE9262;
     border-radius: 4px;
 }
 
@@ -1161,40 +1167,49 @@ textarea {
 
 @media only screen and (max-width: 480px){
 	
+	body{
+		overflow-x:inherit;
+	}
 	
+	.bigWrap{
+	max-width: 100%;
+	overflow-x: hidden;
+
+	}
 	
 	.logo .img-fluid{
-		position: fixed;
-		width: 54px;
-		margin:0px 1px;
+		
+		width: 48px;
+		margin:6px 1px;
 		
 		
 		
 		
 	}
-	.menu{
-	width: 54px;
-	height: 54px;
-	margin: -5px 1px;
+	.menu_btn{
+	width: 48px;
+	height: 48px;
+	margin: 6px 1px;
  
 	
 }
 	
 	
+	
 
 
 .nav-icon span:nth-child(1) {
-  top: 12px;
+  top: 8px;
   width: 72%;
 }
 
 .nav-icon span:nth-child(2),.nav-icon span:nth-child(3) {
-  top: 24px;
+  top: 19px;
   width: 74%;
 }
 
 .nav-icon span:nth-child(4) {
-  top: 36px;
+  top: 30px;
   width: 55%;
 }
 
@@ -1234,7 +1249,7 @@ textarea {
 	
 .header .frontPic{
 	width: 100vw;
-	margin-top: 40vw;
+	margin-top: 35%;
 	position: relative;
 }
 
@@ -1252,7 +1267,7 @@ textarea {
 	
 	width: 240px;
 	left:22%;
-	top:22%;
+	top:17%;
 
 }
 
