@@ -1114,6 +1114,76 @@ section .wave:after{
 }
 
 
+
+
+
+
+/*recommendationPart*/
+.recom {
+	position: relative;
+	z-index: 10;
+	width: 80%;
+	text-align: center;
+	margin: 5vw auto 15vw auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.poparea{
+	height: 8vw;
+}
+
+.poparea > img{
+	width: 15%;
+	margin: 1.5vw auto 1.5vw auto;
+	transition: .8s ease;
+	cursor: pointer;
+}
+
+.poparea > img:hover {
+	transform: scale(1.5);
+}
+
+.people > div > p {
+	margin: -2vw auto 1vw auto;
+}
+
+.people > div > h3 {
+	margin: -1vw auto 1.5vw auto;
+	font-size: 1.5vw;
+	color: #DE9262;
+	font-family: copperplate, serif;
+}
+
+.people{
+	background:#33363c;
+	box-shadow: 5px 5px 100px black;
+	width: 30%;
+	height: 33vw;
+	color: white;
+	opacity: .9;
+	border-radius: 10%;
+	line-height: 2;
+	transition: .5s ease-in-out;
+	
+}
+
+.people > p{
+	margin: 1vw;
+	font-size: 1vw;
+}
+
+
+
+
+
+/*RWD*/
+
+
+
+
 @media only screen and (max-width: 1460px){
 	
            .header .frontPic{
@@ -1463,9 +1533,82 @@ section .wave:after{
 	width: 95px;
 }
 
+	
+/*recommendation_1130*/
+.recom {
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	margin: 5vw auto 15vw auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
 }
 
+
+
+.people > div > p {
+	margin: -1.5vw auto 1vw auto;
+}
+
+.people > div > h3 {
+	margin: -1vw auto 1.5vw auto;
+	font-size: 1.6vw;
+	color: #DE9262;
+	font-family: copperplate, serif;
+}
+
+.people{
+	background:#33363c;
+	box-shadow: 5px 5px 100px black;
+	width: 70%;
+	height: 34vw;
+	margin: 2vw auto 2vw auto;
+	color: white;
+	opacity: .9;
+	border-radius: 10%;
+	line-height: 2;
+	transition: .5s ease-in-out;
+	
+}
+
+.people > p{
+	margin: 1vw;
+	font-size: 1.3vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+
+
+.poparea{
+	height: 10vw;
+}
+
+.poparea > img{
+	width: 12%;
+	margin: 1.5vw auto 1.5vw auto;
+	transition: .8s ease;
+	cursor: pointer;
+}
+
+.poparea > img:hover {
+	transform: scale(1.3);
+}
+
+	
+	
+	
+}
+
+
+
+
+
+
 @media only screen and (max-width: 768px){
+	
 	
 	
 	.slide_screen{
@@ -1785,8 +1928,174 @@ section .wave:after{
 }
 
 	
+
+	
+	/*recommendation_768*/
+.recom {
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	margin: 5vw auto 15vw auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+
+
+.people > div > p {
+	margin: -1.5vw auto 1vw auto;
+}
+
+.people > div > h3 {
+	margin: -1vw auto 1.5vw auto;
+	font-size: 1.6vw;
+	color: #DE9262;
+	font-family: copperplate, serif;
+}
+
+.people{
+	background:#33363c;
+	box-shadow: 5px 5px 100px black;
+	width: 78%;
+	height: 40vw;
+	margin: 4.5vw auto 4.5vw auto;
+	color: white;
+	opacity: .9;
+	border-radius: 10%;
+	line-height: 2;
+	transition: .5s ease-in-out;
 	
 }
+
+.people > p{
+	margin: 1vw;
+	font-size: 1.3vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+
+
+.poparea{
+	height: 10vw;
+}
+
+.poparea > img{
+	width: 9%;
+	margin: 1.5vw auto 1.5vw auto;
+	transition: .8s ease;
+	cursor: pointer;
+}
+
+.poparea > img:hover {
+	transform: scale(1.3);
+}
+
+	
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 630px){
+	
+	.wrap > .container-fluid > h1 {
+		font-size: 6.5vw;
+	}
+	
+	/*recommendation_630*/
+
+
+.people{
+	background:#33363c;
+	box-shadow: 5px 5px 100px black;
+	width: 82%;
+	height: 52vw;
+	margin: 4.5vw auto 4.5vw auto;
+	color: white;
+	opacity: .9;
+	border-radius: 10%;
+	line-height: 2;
+	transition: .5s ease-in-out;
+	
+}
+
+.people > p{
+	margin: 1vw;
+	font-size: 1.3vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+
+
+.poparea{
+	height: 10vw;
+}
+
+.poparea > img{
+	width: 9%;
+	margin: 1.5vw auto 1.5vw auto;
+	transition: .8s ease;
+	cursor: pointer;
+}
+
+.poparea > img:hover {
+	transform: scale(1.3);
+}
+
+}
+
+
+@media only screen and (max-width: 545px){
+	
+	/*recommendation_545*/
+
+
+.people{
+	background:#33363c;
+	box-shadow: 5px 5px 100px black;
+	width: 85%;
+	height: 65vw;
+	margin: 5vw auto 5vw auto;
+	color: white;
+	opacity: .9;
+	border-radius: 10%;
+	line-height: 2;
+	transition: .5s ease-in-out;
+	
+}
+
+.people > p{
+	margin: 1vw;
+	font-size: 1.3vw;
+	padding-left: 4vw;
+	padding-right: 4vw;
+}
+
+
+
+.poparea{
+	height: 10vw;
+}
+
+.poparea > img{
+	width: 9%;
+	margin: 1.5vw auto 1.5vw auto;
+	transition: .8s ease;
+	cursor: pointer;
+}
+
+.poparea > img:hover {
+	transform: scale(1.3);
+}
+
+}
+
+
 
 
 @media only screen and (max-width: 480px){
@@ -1830,14 +2139,14 @@ section .wave:after{
 				margin-top: 35%;
 			}
 			
-.hidden,.shown,.wait{
-		 width: 100vw;
-                font-size: 11.5vw;
+			.hidden,.shown,.wait{
+				width: 90vw;
+                font-size: 9vw;
 			}
 			
 			.header .frontPic .title{
 				top: 55%;
-	            left: -2%;
+	            left: 3%;
 			}
 	
 
@@ -1864,8 +2173,8 @@ section .wave:after{
 }
 
 .intro > h2{
-	width: 80vw;
-	font-size: 8vw;
+	width: 75vw;
+	font-size: 9vw;
 }
 .intro > p{
 	width: 66vw;
@@ -1979,12 +2288,12 @@ section .wave:after{
 	
 	width: 75vw;
 	top:22%;
-	left: 8.5%;
+	left: 7.5%;
 
 }
 
 .projects .ruboSwipe{	
-	left: 8.5%;
+	left: 7.5%;
 }
 
 .projects .compo{
@@ -2074,5 +2383,69 @@ section .wave:after{
 	}
 	
 	
+	
+	/*recommendation_768*/
+.recom {
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	margin: 5vw auto 15vw auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
 }
 
+
+
+.people > div > p {
+	margin: -1.5vw auto 1vw auto;
+}
+
+.people > div > h3 {
+	margin: -1vw auto 1.5vw auto;
+	font-size: 1.6vw;
+	color: #DE9262;
+	font-family: copperplate, serif;
+}
+
+.people{
+	background:#33363c;
+	box-shadow: 5px 5px 100px black;
+	width: 78%;
+	height: 40vw;
+	margin: 4.5vw auto 4.5vw auto;
+	color: white;
+	opacity: .9;
+	border-radius: 10%;
+	line-height: 2;
+	transition: .5s ease-in-out;
+	
+}
+
+.people > p{
+	margin: 1vw;
+	font-size: 1.3vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+
+
+.poparea{
+	height: 10vw;
+}
+
+.poparea > img{
+	width: 6%;
+	margin: 1.5vw auto 1.5vw auto;
+	transition: .8s ease;
+	cursor: pointer;
+}
+
+.poparea > img:hover {
+	transform: scale(1.3);
+}
+
+	
+}
