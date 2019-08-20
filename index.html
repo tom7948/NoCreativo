@@ -697,12 +697,12 @@ and smooth user flow, bringing out the classic atmosphere.</p>
   });
 	 
 	  $(window).on('scroll', function() {
-      $('div.compo').each(function() {
+      $('div.cupo').each(function() {
       var thisTop = jQuery(this).offset().top - $(window).scrollTop();
       if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('compoSwipe');
+        $(this).addClass('cupoSwipe');
       } else {
-        $(this).removeClass('compoSwipe');
+        $(this).removeClass('cupoSwipe');
 		  
       }
     });
