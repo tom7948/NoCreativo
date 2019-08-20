@@ -848,6 +848,20 @@ section .wave:after{
 	
 }
 
+.projects .cupo{
+	position: absolute;
+	width: 260px;
+	top:10%;
+	left: -30%;
+	transition: .8s ease;
+}
+
+.projects .cupoSwipe{
+	
+	left: 25%;
+	
+}
+
 .projects .wedding{
 	position: absolute;
 	width: 600px;
@@ -882,28 +896,13 @@ section .wave:after{
 	position: absolute;
 	width: 500px;
 	top:16%;
-	left: -20%;
+	left: 30%;
 	transition: .8s ease;
 }
 
 .projects .ruboSwipe{
 	
-	left: 20%;
-	
-}
-
-.projects .compo{
-	position: absolute;
-	width: 280px;
-	top:-2%;
-	left: 45%;
-	transition: .8s ease;
-}
-
-
-.projects .compoSwipe{
-	
-  left:0%;
+	left: -26%;
 	
 }
 
@@ -2296,20 +2295,21 @@ section .wave:after{
 	left: 7.5%;
 }
 
-.projects .compo{
+.projects .cupo{
 	width: 38vw;
 	top:20%;
 	left: 23%;
 }
 
 
-.projects .compoSwipe{
+.projects .cupoSwipe{
 	
 	left: 23%;
 	
 }
 
-	.projects .circle{
+	
+.projects .circle{
 	opacity: .9;
 	width: 400px;
 	height: 400px;
