@@ -1843,18 +1843,19 @@ section .wave:after{
 	left: 0%;
 }
 
-.projects .compo{
-	width: 200px;
+.projects .cupo{
+	width: 250px;
 	top:2%;
-	left: 17%;
+	left: 20%;
 }
 
 
-.projects .compoSwipe{
+.projects .cupoSwipe{
 	
-	left: 17%;
+	left: 20%;
 	
 }
+
 
 	.projects .circle{
 	opacity: .9;
