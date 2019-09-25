@@ -512,7 +512,7 @@ body{
 .intro{
 	position: relative;
 	margin: 10em auto 15em auto;
-	background:#33363C;
+	background-color: rgb(42,44,47,0.8);
 	border-radius: 5%;
 	color: #fff;
 	width: 50vw;
@@ -522,7 +522,6 @@ body{
 	text-align: center;
 	line-height: 2.2;
 	z-index: 3;
-	opacity: .9;
 	box-shadow: 5px 5px 100px black;
 }
 
@@ -1475,6 +1474,95 @@ TODO: make it easier with SCSS
 	
 }
 
+	
+/*ServicePart*/
+.service{
+	margin-top: 250px;
+	margin-bottom: 250px;
+	
+
+}
+
+
+.serviceContent{
+	
+	width: 400px;	
+	margin-bottom: 8vw;
+}
+
+.serviceContent h4{
+	margin: 1vw;
+	font-size: 24px;
+
+}
+
+.serviceContent p{
+	color: grey;
+	font-size: 16px;
+	margin:0 6vw;
+}
+
+.service > .coding > p{
+	margin:0 5vw;
+}
+
+.service > .time > p{
+	margin:0 6vw;
+}
+	
+/*NewTestimonialPart*/
+
+.carrousel {
+  padding: 3.5em 0;
+  height: 24em;
+  max-width: 600px;
+  margin: 15vw auto;
+  border-radius: 20px;
+  
+}
+
+.carrousel .slides {
+  width: 400%;
+
+}
+.carrousel .slides li {
+  width: 25%;
+  margin-top:-1.5vw;
+
+}
+
+
+.carrousel li img {
+  width: 5em;
+  height: 5em;
+}
+		
+.carrousel h4{
+	font-size: 18px;
+	margin-top:10px;
+		}
+				
+.carrousel h3{
+	font-size: 24px;
+	margin-top:-2px;
+		}
+		
+.carrousel li p {
+  max-width: 80%;
+  margin: auto 4vw;
+  font-size: 1.3vw;
+}
+		
+		
+.carrousel .slidesNavigation {
+  bottom: 1em;
+    width: 68px; 
+    left: 50%; 
+    margin-left: -34px; 
+}
+	
+
+	
 }
 
 @media only screen and (max-width:1130px){
@@ -1793,10 +1881,196 @@ TODO: make it easier with SCSS
 
 	
 	
-	
+/*ServicePart*/
+.service{
+	margin-top: 220px;
+	margin-bottom: 220px;
+    width: 85%;
 }
 
 
+.serviceContent{
+	
+	width: 360px;	
+	margin-bottom: 8vw;
+}
+	
+	.serviceContent img{
+		width: 75px;
+	}
+
+.serviceContent h4{
+	margin: 1vw;
+	font-size: 22px;
+
+}
+
+.serviceContent p{
+	color: grey;
+	font-size: 15px;
+	margin:0 6vw;
+}
+
+.service > .coding > p{
+	margin:0 4vw;
+}
+
+.service > .time > p{
+	margin:0 8vw;
+}
+
+/*NewTestimonialPart*/
+
+.carrousel {
+  padding: 3.5em 0;
+  height: 24em;
+  max-width: 500px;
+  margin: 15vw auto;
+  border-radius: 20px;
+  
+}
+
+.carrousel .slides {
+  width: 400%;
+
+}
+.carrousel .slides li {
+  width: 25%;
+  margin-top:-1.5vw;
+
+}
+
+
+.carrousel li img {
+  width: 5em;
+  height: 5em;
+}
+		
+.carrousel h4{
+	font-size: 18px;
+	margin-top:10px;
+		}
+				
+.carrousel h3{
+	font-size: 24px;
+	margin-top:-2px;
+		}
+		
+.carrousel li p {
+  max-width: 80%;
+  margin: auto 4vw;
+  font-size: 1.5vw;
+}
+		
+		
+.carrousel .slidesNavigation {
+  bottom: 1em;
+    width: 68px; 
+    left: 50%; 
+    margin-left: -34px; 
+}
+	
+	
+}
+
+@media only screen and (max-width: 900px){
+	
+	/*IntroPart*/
+.intro{
+	
+	margin: 10em auto 15em auto;
+	border-radius: 5%;
+	width: 60vw;
+	line-height: 2.2;
+	box-shadow: 5px 5px 100px black;
+}
+
+.intro > h2{
+	font-size: 40px;
+	margin:80px 0 40px 0;
+	width: 30vw;
+
+}
+.intro > p{
+	width: 48vw;
+	font-size:16px;
+	margin-bottom: 80px;
+	
+}
+
+	/*ServicePart*/
+.service{
+	margin-top: 220px;
+	margin-bottom: 220px;
+    width: 85%;
+}
+
+
+.serviceContent{
+	
+	width: 320px;	
+	margin-bottom: 8vw;
+}
+	
+	.serviceContent img{
+		width: 75px;
+	}
+
+.serviceContent h4{
+	margin: 1vw;
+	font-size: 21px;
+
+}
+
+.serviceContent p{
+	color: grey;
+	font-size: 13px;
+	margin:0 6vw;
+}
+
+.service > .coding > p{
+	margin:0 4vw;
+}
+
+.service > .time > p{
+	margin:0 8vw;
+}
+
+/*NewTestimonialPart*/
+
+.carrousel {
+  padding: 3.5em 0;
+  height: 24em;
+  max-width: 450px;
+  margin: 15vw auto;
+  
+}
+
+.carrousel li img {
+  width: 4.5em;
+  height: 4.5em;
+}
+		
+.carrousel h4{
+	font-size: 16px;
+	margin-top:10px;
+		}
+				
+.carrousel h3{
+	font-size: 22px;
+	margin-top:-2px;
+		}
+		
+.carrousel li p {
+  max-width: 80%;
+  margin: auto 4vw;
+  font-size: 13px;
+}
+		
+		
+
+	
+}
 
 
 
@@ -1952,21 +2226,6 @@ TODO: make it easier with SCSS
 }
 
    
-.intro{
-	margin: 12em auto 8em auto;
-	width: 75vw;
-	line-height: 2;
-}
-
-.intro > h2{
-	width: 50vw;
-	font-size: 50px;
-}
-.intro > p{
-	width: 66vw;
-	font-size: 2.6vw;
-	
-}
 
 .skillset{
 	margin-bottom: 0;
@@ -2189,7 +2448,67 @@ TODO: make it easier with SCSS
 
 	
 	
+	/*IntroPart*/
+.intro{
 	
+	margin: 10em auto 15em auto;
+	border-radius: 5%;
+	width: 60vw;
+	
+}
+
+.intro > h2{
+	font-size: 40px;
+	margin:80px 0 40px 0;
+	width: 50vw;
+
+}
+.intro > p{
+	width: 48vw;
+	font-size:13px;
+	margin-bottom: 80px;
+	
+}
+
+	/*ServicePart*/
+.service{
+	margin-top: 220px;
+	margin-bottom: 220px;
+    width: 85%;
+	z-index: 11;
+	position: relative;
+}
+
+
+.serviceContent{
+	
+	width: 220px;	
+	margin-bottom: 8vw;
+}
+	
+	.serviceContent img{
+		width: 55px;
+	}
+
+.serviceContent h4{
+	margin: 1vw;
+	font-size: 18px;
+
+}
+
+.serviceContent p{
+	color: grey;
+	font-size: 12px;
+	margin:0 3vw;
+}
+
+.service > .coding > p{
+	margin:0 2vw;
+}
+
+.service > .time > p{
+	margin:0 4vw;
+}	
 	
 }
 
@@ -2241,6 +2560,74 @@ TODO: make it easier with SCSS
 	transform: scale(1.3);
 }
 
+	
+	
+	/*IntroPart*/
+.intro{
+	
+	margin: 8em auto 10em auto;
+	width: 65vw;
+	
+}
+
+.intro > h2{
+	font-size: 36px;
+	margin:60px 0 30px 0;
+	width: 50vw;
+
+}
+.intro > p{
+	width: 55vw;
+	font-size:12px;
+	margin-bottom: 60px;
+	
+}
+
+	/*ServicePart*/
+.service{
+	margin-top: 220px;
+	margin-bottom: 220px;
+    width: 90%;
+	z-index: 11;
+	position: relative;
+}
+
+
+.serviceContent{
+	
+	width: 200px;	
+	margin-bottom: 6vw;
+	
+}
+	
+	.serviceContent img{
+		width: 45px;
+	}
+
+.serviceContent h4{
+	margin: 1vw;
+	font-size: 15px;
+
+}
+
+.serviceContent p{
+	color: grey;
+	font-size: 12px;
+	margin:0 3vw;
+}
+
+.service > .coding > p{
+	margin:0 5vw;
+}
+
+.service > .time > p{
+	margin:0 4vw;
+}	
+	
+	
+	
+	
+	
 }
 
 
@@ -2641,8 +3028,124 @@ TODO: make it easier with SCSS
 	transform: scale(1.3);
 }
 
+	/*IntroPart*/
+.intro{
+	
+	margin: 8em auto 10em auto;
+	width: 65vw;
 	
 }
+
+.intro > h2{
+	font-size: 36px;
+	margin:60px 0 30px 0;
+	width: 50vw;
+
+}
+.intro > p{
+	width: 55vw;
+	font-size:12px;
+	margin-bottom: 60px;
+	
+}
+
+	/*ServicePart*/
+.service{
+	margin-top: 220px;
+	margin-bottom: 220px;
+    width: 90%;
+	z-index: 11;
+	position: relative;
+}
+
+
+.serviceContent{
+	
+	width: 200px;	
+	margin-bottom: 6vw;
+	
+}
+	
+	.serviceContent img{
+		width: 45px;
+	}
+
+.serviceContent h4{
+	margin: 1vw;
+	font-size: 15px;
+
+}
+
+.serviceContent p{
+	color: grey;
+	font-size: 12px;
+	margin:0 3vw;
+}
+
+.service > .coding > p{
+	margin:0 5vw;
+}
+
+.service > .time > p{
+	margin:0 4vw;
+}	
+
+	
+	/*NewTestimonialPart*/
+
+.carrousel {
+  padding: 3.5em 0;
+  height: 24em;
+  max-width: 400px;
+  margin: 15vw auto;
+  border-radius: 20px;
+  
+}
+
+.carrousel .slides {
+  width: 400%;
+
+}
+.carrousel .slides li {
+  width: 25%;
+  margin-top:-1.5vw;
+
+}
+
+
+.carrousel li img {
+  width: 4em;
+  height: 4em;
+}
+		
+.carrousel h4{
+	font-size: 16px;
+	margin-top:10px;
+		}
+				
+.carrousel h3{
+	font-size: 22px;
+	margin-top:-2px;
+		}
+		
+.carrousel li p {
+  max-width: 80%;
+  margin: auto 4vw;
+  font-size: 12px;
+}
+		
+		
+.carrousel .slidesNavigation {
+  bottom: 1em;
+    width: 68px; 
+    left: 50%; 
+    margin-left: -34px; 
+}
+
+	
+	
+}
+
 
 
 
