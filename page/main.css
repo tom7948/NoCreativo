@@ -868,8 +868,8 @@ section .wave:after{
 .projects p{
 	display: inline-block;
 	color: white;
-	width: 90%;
-	font-size: 1.3vw;
+	width: 82%;
+	font-size: 1vw;
 	text-align: center;
 	line-height: 2;
 	margin-bottom: 2em;
@@ -1696,6 +1696,8 @@ TODO: make it easier with SCSS
 	text-align: center;
 }
 	
+	
+	
 	.projects .juiceSwipe{
 	
 	left:-12%;
@@ -2257,6 +2259,9 @@ TODO: make it easier with SCSS
 
 	
 }
+	
+
+
 	
 .projects .wedding{
 	
@@ -3145,6 +3150,7 @@ TODO: make it easier with SCSS
 	
 	
 }
+
 
 
 
