@@ -787,53 +787,53 @@ and smooth user flow, bringing out the classic atmosphere.</p>
   });
 	
 	 
-	  $(window).on('scroll', function() {
-      $('div.wedding').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('weddingSwipe');
-      } else {
-        $(this).removeClass('weddingSwipe');
-		  
-      }
-    });
-  });
-	 
-	  $(window).on('scroll', function() {
-      $('div.juice').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('juiceSwipe');
-      } else {
-        $(this).removeClass('juiceSwipe');
-		  
-      }
-    });
-  });
-	 
-	  $(window).on('scroll', function() {
-      $('div.rubo').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('ruboSwipe');
-      } else {
-        $(this).removeClass('ruboSwipe');
-		  
-      }
-    });
-  });
-	 
-	  $(window).on('scroll', function() {
-      $('div.cupo').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('cupoSwipe');
-      } else {
-        $(this).removeClass('cupoSwipe');
-		  
-      }
-    });
-  });
+//	  $(window).on('scroll', function() {
+//      $('div.wedding').each(function() {
+//      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+//      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+//        $(this).addClass('weddingSwipe');
+//      } else {
+//        $(this).removeClass('weddingSwipe');
+//		  
+//      }
+//    });
+//  });
+//	 
+//	  $(window).on('scroll', function() {
+//      $('div.juice').each(function() {
+//      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+//      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+//        $(this).addClass('juiceSwipe');
+//      } else {
+//        $(this).removeClass('juiceSwipe');
+//		  
+//      }
+//    });
+//  });
+//	 
+//	  $(window).on('scroll', function() {
+//      $('div.rubo').each(function() {
+//      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+//      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+//        $(this).addClass('ruboSwipe');
+//      } else {
+//        $(this).removeClass('ruboSwipe');
+//		  
+//      }
+//    });
+//  });
+//	 
+//	  $(window).on('scroll', function() {
+//      $('div.cupo').each(function() {
+//      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
+//      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
+//        $(this).addClass('cupoSwipe');
+//      } else {
+//        $(this).removeClass('cupoSwipe');
+//		  
+//      }
+//    });
+//  });
 	
 	  
   $(window).trigger('scroll');
