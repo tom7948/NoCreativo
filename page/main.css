@@ -2915,8 +2915,8 @@ section .wave:after{
 
 .nav-icon {
   background:#000;
-  width: 46px;
-  height: 46px;
+  width: 44px;
+  height: 44px;
   margin: 2px; 
 }	
 	
@@ -2950,8 +2950,8 @@ section .wave:after{
 	top:19px;
 	bottom: 0%;
 	right:9.5px;
-	width: 46px;
-	height: 46px;
+	width: 44px;
+	height: 44px;
 	border-radius: 50%;
 	background:#000;
 	transition: .6s ease;
@@ -3310,7 +3310,7 @@ section .wave:after{
 .intro{
 	
 	margin: 8em auto 10em auto;
-	width: 65vw;
+	width: 80%;
 	
 }
 
