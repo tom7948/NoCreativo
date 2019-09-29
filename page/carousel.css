@@ -223,14 +223,14 @@
 /*carousel*/
 	.carousel-inner{
 	 width: 80%;
-	 height: 340px;
+	 height: 320px;
 	 margin: 150px auto;
 	 
 	}
 	.carousel-inner > .item > img{
 	 width: 62px;
          height: 62px;
-     margin:3vw auto;	
+     margin:4vw auto;	
 	}
 	.carousel-inner p{
 	max-width: 75%;
