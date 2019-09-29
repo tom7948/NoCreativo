@@ -3041,11 +3041,11 @@ section .wave:after{
 
 .intro > h2{
 	width: 75vw;
-	font-size: 9vw;
+	font-size: 10vw;
 }
 .intro > p{
-	width: 66vw;
-	font-size: 3.5vw;
+	width: 70vw;
+	font-size: 3.8vw;
 	
 }
 	
@@ -3130,7 +3130,7 @@ section .wave:after{
 	display: block;
 	text-align: center;
 	left: 13%;
-	top:25%;
+	top:20%;
 }
 
 .projects .weddingSwipe{
@@ -3166,7 +3166,7 @@ section .wave:after{
 
 .projects .cupo{
 	width: 58vw;
-	top:18%;
+	top:-5%;
 	left: 25%;
 }
 
