@@ -2803,11 +2803,7 @@ body{
 		overflow-x:auto;
 	}
 	
-	.bigWrap{
-	max-width: 100%;
-	overflow-x: hidden;
-
-	}
+	
 
 	
 	.logo .img-fluid{
