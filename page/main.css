@@ -3042,10 +3042,12 @@ section .wave:after{
 .intro > h2{
 	width: 75vw;
 	font-size: 10vw;
+	margin-top:5px;
 }
 .intro > p{
-	width: 70vw;
+	width: 72vw;
 	font-size: 3.8vw;
+	margin-bottom:5px;
 	
 }
 	
@@ -3166,7 +3168,7 @@ section .wave:after{
 
 .projects .cupo{
 	width: 58vw;
-	top:-3%;
+	top:-1%;
 	left: 25%;
 }
 
