@@ -1,0 +1,222 @@
+/*AutoPlayCarousel*/
+.Testimonialcontainer{
+			position: relative;
+			width: 100%;
+			margin-top: 10vw;
+			z-index: 11;
+			margin-bottom: 20vw;
+			
+		}
+
+.carousel-inner > .item > img {
+  width: 6vw;
+  height: 6vw;
+  margin:1vw auto;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+		
+.carousel-inner h4{
+	color: white;
+	font-size: 14px;
+	margin-top:10px;
+	text-align: center;
+		}
+				
+.carousel-inner h3{
+	color: #DE9262;
+	font-family: "Oswald";
+	font-size: 20px;
+	margin-top:-10px;
+	text-align: center;
+		}
+		
+.carousel-inner p {
+  max-width: 80%;
+  margin: 1vw auto 4vw auto ;
+	font-size: 16px;
+  color: white;
+   line-height: 1.8;
+	text-align: center;
+	
+}
+		
+	
+		.carousel-inner{
+			background-color: rgb(42,44,47,0.85);
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			align-content: center;
+			border-radius: 30px;
+			width: 36%;
+			
+			
+		}
+		
+.carousel-indicators {
+			bottom: 0.5vw;
+
+		}
+
+.carousel-indicators li{
+	display: inline-block;
+	margin: 0 3px;
+}
+
+.carousel-indicators .active{
+	display: inline-block;
+	border: 1px solid;
+	margin-top: -1px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+		
+		.Testimonialcontainer > .carousel-control{
+			position: absolute;
+			width: 100px;
+			height: 20px;
+			top:48%;
+			z-index: 12;
+		}
+		
+		.Testimonialcontainer  .Testleft{
+			background-repeat: no-repeat;
+            background-image:url(../PIC/arrow_left.png);
+			left:20%;
+		}
+		.Testimonialcontainer  .Testright{
+			background-repeat: no-repeat;
+            background-image:url(../PIC/arrow_right.png);
+			left: 75%;
+		}
+		
+		
+		.carousel-indicators li{
+			border: 1px solid rgb(222,146,98);
+		}
+		
+		.carousel-indicators .active{
+			background-color: rgb(222,146,98);
+		}
+		
+
+@media  (max-width: 1400px) {
+	.carousel-inner{
+	 width: 46%;
+	}
+	.carousel-inner > .item > img{
+	 width: 6vw;
+     height: 6vw;
+     margin:1vw auto;	
+	}
+	
+  }
+
+@media  (max-width: 1250px) {
+  .carousel-inner{
+	 width: 46%;
+	}
+	.carousel-inner p{
+	margin: 1vw auto 5vw auto ;
+	font-size: 15px;
+	}
+  }
+@media  (max-width: 1165px){
+	.carousel-inner{
+	 width: 50%;
+	 height: 320px;
+	}
+	.carousel-inner p{
+	max-width: 70%;
+	margin: 1vw auto 6vw auto ;
+	font-size: 14px;
+	}
+	.Testimonialcontainer > .Testleft{
+		left: 10%;
+	}
+	.Testimonialcontainer > .Testright{
+		left: 82%;
+	}
+}
+		
+@media  (max-width: 900px){
+	.carousel-inner{
+	 width: 60%;
+	 height: 300px;
+	}
+	.carousel-inner > .item > img{
+	 width: 6vw;
+     height: 6vw;
+     margin:1vw auto;	
+	}
+	.carousel-inner p{
+	max-width: 75%;
+	margin: 1vw auto 6vw auto ;
+	font-size: 14px;
+	}
+	.Testimonialcontainer > .Testleft{
+		left: 10%;
+	}
+	.Testimonialcontainer > .Testright{
+		left: 82%;
+	}
+}
+		
+@media  (max-width: 730px){
+	.carousel-inner{
+	 width: 75%;
+	 height: 280px;
+		margin: 200px auto;
+	}
+	.carousel-inner > .item > img{
+	 width: 6vw;
+     height: 6vw;
+     margin:1vw auto;	
+	}
+	.carousel-inner p{
+	max-width: 75%;
+	margin: 2vw auto 4vw auto ;
+	font-size: 14px;
+	}
+	.Testimonialcontainer > .Testleft{
+		display: none;
+	}
+	.Testimonialcontainer > .Testright{
+		display: none;
+	}
+}
+@media  (max-width: 590px){
+	.carousel-inner{
+	 width: 80%;
+	 height: 330px;
+	 
+	}
+	.carousel-inner > .item > img{
+	 width: 9vw;
+     height: 9vw;
+     margin:2.5vw auto;	
+	}
+	.carousel-inner p{
+	max-width: 75%;
+	margin: 2vw auto 4vw auto ;
+	font-size: 14px;
+	}
+	.Testimonialcontainer > .Testleft{
+		display: none;
+	}
+	.Testimonialcontainer > .Testright{
+		display: none;
+	}
+	
+	.Testimonialcontainer{
+			
+			
+		}
+
+}
+	
+
+		
