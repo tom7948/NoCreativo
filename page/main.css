@@ -2885,7 +2885,7 @@ section .wave:after{
 .header .frontPic{
 				width: 95%;
 				margin-top: 37%;
-	            margin-left:10%;
+	            margin-left:5%;
 			}
 			
 			.hidden,.shown,.wait{
