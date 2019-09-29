@@ -2799,7 +2799,8 @@ section .wave:after{
 
 
 @media only screen and (max-width: 480px){
-	body{
+	
+body{
 		overflow-x:inherit;
 	}
 	
@@ -2887,7 +2888,7 @@ section .wave:after{
 
 .serviceContent{
 	
-	width: 160px;	
+	width: 120px;	
 	margin-bottom: 6vw;
 	
 }
@@ -2906,6 +2907,7 @@ section .wave:after{
 	color: grey;
 	font-size: 12px;
 	margin:0 3vw;
+    opacity: 0;
 }
 
 .service > .coding > p{
@@ -2915,7 +2917,7 @@ section .wave:after{
 .service > .time > p{
 	margin:0 4vw;
 }	
-		
+	
 	
 /*resume*/
 	.intro > .resume_button{
@@ -2925,14 +2927,14 @@ section .wave:after{
 .boat {
 	
 	width: 18vw;
-	left:32%;
+	left:42%;
 	top:30%;
 
 }
 
 
    .boat.scrolled{
-	width: 18vw;
+	width: 12vw;
 	left: 42%;
 }
 	
@@ -3030,7 +3032,7 @@ section .wave:after{
 	
 .projects .wedding{
 	
-	width: 120vw;
+	width: 80vw;
 	display: block;
 	text-align: center;
 	left: -8%;
@@ -3042,7 +3044,7 @@ section .wave:after{
 
 .projects .juice{
 	
-	width: 90vw;
+	width: 80vw;
 	top:25%;
 	left: 8%;
 	
@@ -3057,7 +3059,7 @@ section .wave:after{
 
 .projects .rubo{
 	
-	width: 75vw;
+	width: 78vw;
 	top:22%;
 	left: 7.5%;
 
@@ -3068,7 +3070,7 @@ section .wave:after{
 }
 
 .projects .cupo{
-	width: 38vw;
+	width: 48vw;
 	top:20%;
 	left: 23%;
 }
@@ -3143,16 +3145,7 @@ section .wave:after{
 	left: -12%;
  	
 }
-	.footer .frontPic .talk{
-		position: relative;
-		cursor: pointer;
-		z-index: 10;
-	}
-	.talk:before{
-		width: 55px;
-		
-	}
-	
+
 	
 	
 	/*recommendation_768*/
@@ -3249,39 +3242,20 @@ section .wave:after{
 }
 
 
-.serviceContent{
+
 	
-	width: 200px;	
-	margin-bottom: 6vw;
-	
-}
-	
-	.serviceContent img{
-		width: 45px;
+
+.footer .frontPic .talk{
+		position: relative;
+		cursor: pointer;
+		z-index: 10;
 	}
-
-.serviceContent h4{
-	margin: 1vw;
-	font-size: 15px;
-
-}
-
-.serviceContent p{
-	color: grey;
-	font-size: 12px;
-	margin:0 3vw;
-}
-
-.service > .coding > p{
-	margin:0 5vw;
-}
-
-.service > .time > p{
-	margin:0 4vw;
-}	
-
+.talk:before{
+		width: 55px;
+		
+	}
 	
-
 	
 	
 }
+
