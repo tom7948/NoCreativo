@@ -3130,7 +3130,7 @@ section .wave:after{
 	display: block;
 	text-align: center;
 	left: 13%;
-	top:20%;
+	top:24%;
 }
 
 .projects .weddingSwipe{
@@ -3166,7 +3166,7 @@ section .wave:after{
 
 .projects .cupo{
 	width: 58vw;
-	top:-5%;
+	top:-3%;
 	left: 25%;
 }
 
@@ -3328,23 +3328,6 @@ section .wave:after{
 }
 
 
-/*carousel*/
-	.carousel-inner{
-	 width: 80%;
-	 height: 380px;
-	 margin: 150px auto;
-	 
-	}
-	.carousel-inner > .item > img{
-	 width: 24px;
-         height: 24px;
-     margin:3vw auto;	
-	}
-	.carousel-inner p{
-	max-width: 75%;
-	margin: 2vw auto 4vw auto ;
-	font-size: 10px;
-	}
 	
 
 .footer .frontPic .talk{
