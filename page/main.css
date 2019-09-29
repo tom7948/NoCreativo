@@ -2852,12 +2852,12 @@ section .wave:after{
 
 @media only screen and (max-width: 480px){
 	body{
-		overflow-x:auto;
+		overflow-x:hidden;
 	}
 	
 	.bigWrap{
 	max-width: 100%;
-	overflow-x: hidden;
+	
 
 	}
 
