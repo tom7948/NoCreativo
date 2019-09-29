@@ -2911,8 +2911,8 @@ section .wave:after{
 
 .nav-icon {
   background:#000;
-  width: 48px;
-  height: 48px;
+  width: 46px;
+  height: 46px;
   margin: 2px; 
 }	
 	
@@ -2943,11 +2943,11 @@ section .wave:after{
 .slide_screenMobile{
 	position: fixed;
 	float: right;
-	top:20.5px;
+	top:19px;
 	bottom: 0%;
 	right:9.5px;
-	width: 48px;
-	height: 48px;
+	width: 46px;
+	height: 46px;
 	border-radius: 50%;
 	background:#000;
 	transition: .6s ease;
