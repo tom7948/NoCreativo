@@ -2840,6 +2840,10 @@ section .wave:after{
 	height: 0.8vw;
 	
 }
+.wrap > .container-fluid > h1 {
+		font-size: 7vw;
+		letter-spacing: 15px;
+	}
 
 }
 
@@ -3328,11 +3332,12 @@ section .wave:after{
 	.carousel-inner{
 	 width: 80%;
 	 height: 330px;
+	 margin: 150px auto;
 	 
 	}
 	.carousel-inner > .item > img{
-	 width: 9vw;
-     height: 9vw;
+	 width: 10vw;
+     height: 10vw;
      margin:2.5vw auto;	
 	}
 	.carousel-inner p{
@@ -3352,6 +3357,10 @@ section .wave:after{
 		
 	}
 	
+	.wrap > .container-fluid > h1 {
+		font-size: 7vw;
+		letter-spacing: 12px;
+	}
 	
 	
 }
