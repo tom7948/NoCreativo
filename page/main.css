@@ -2943,7 +2943,7 @@ section .wave:after{
 .slide_screenMobile{
 	position: fixed;
 	float: right;
-	top:24px;
+	top:20px;
 	bottom: 0%;
 	right:9.5px;
 	width: 53px;
