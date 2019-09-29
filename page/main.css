@@ -2799,7 +2799,6 @@ section .wave:after{
 
 
 @media only screen and (max-width: 480px){
-	
 body{
 		overflow-x:inherit;
 	}
@@ -3038,7 +3037,7 @@ body{
 	display: block;
 	text-align: center;
 	left: 13%;
-	top:2%;
+	top:5%;
 }
 
 .projects .weddingSwipe{
@@ -3047,9 +3046,9 @@ body{
 
 .projects .juice{
 	
-	width: 82vw;
-	top:28%;
-	left: 13%;
+	width: 84vw;
+	top:30%;
+	left: 12%;
 	
 }
 
@@ -3267,4 +3266,5 @@ body{
 	
 	
 }
+
 
