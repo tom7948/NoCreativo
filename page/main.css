@@ -2943,13 +2943,13 @@ section .wave:after{
 .slide_screenMobile{
 	position: fixed;
 	float: right;
-	top:20px;
+	top:20.5px;
 	bottom: 0%;
 	right:9.5px;
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	background:red;
+	background:#000;
 	transition: .6s ease;
 	z-index: 12;
 	display:flex;
