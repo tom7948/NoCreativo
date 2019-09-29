@@ -2910,11 +2910,12 @@ section .wave:after{
 }
 
 .nav-icon {
+  background:red;
   width: 53px;
   height: 53px;
-  margin: ; 
+  margin: 2px; 
 }	
-	
+		
 	
 .slide_screenMobile{
 	position: fixed;
