@@ -2837,7 +2837,7 @@ body{
 	
 .header .frontPic{
 				width: 95%;
-				margin-top: 35%;
+				margin-top: 37%;
 	            margin-left:10%;
 			}
 			
@@ -2928,7 +2928,7 @@ body{
 	
 .boat {
 	
-	width: 18vw;
+	width: 16vw;
 	left:42%;
 	top:30%;
 
@@ -2936,14 +2936,14 @@ body{
 
 
    .boat.scrolled{
-	width: 12vw;
+	width: 16vw;
 	left: 42%;
 }
 	
    
 .intro{
 	margin: 10em auto 8em auto;
-	width: 80vw;
+	width: 85vw;
 	line-height: 2;
 }
 
@@ -2985,7 +2985,7 @@ body{
 }
 	
 	.skillset p{
-	font-size: 2.5vw;
+	font-size: 3vw;
 	left: -17vw;
 	
 }
@@ -3034,10 +3034,10 @@ body{
 	
 .projects .wedding{
 	
-	width: 80vw;
+	width: 82vw;
 	display: block;
 	text-align: center;
-	left: 8%;
+	left: 12%;
 }
 
 .projects .weddingSwipe{
@@ -3048,7 +3048,7 @@ body{
 	
 	width: 80vw;
 	top:25%;
-	left: 10%;
+	left: 14%;
 	
 }
 
@@ -3072,7 +3072,7 @@ body{
 }
 
 .projects .cupo{
-	width: 50vw;
+	width: 55vw;
 	top:20%;
 	left: 25%;
 }
@@ -3266,3 +3266,4 @@ body{
 	
 	
 }
+
