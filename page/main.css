@@ -2946,8 +2946,8 @@ section .wave:after{
 	top:20px;
 	bottom: 0%;
 	right:9.5px;
-	width: 53px;
-	height: 53px;
+	width: 48px;
+	height: 48px;
 	border-radius: 50%;
 	background:#000;
 	transition: .6s ease;
