@@ -2838,6 +2838,7 @@ body{
 .header .frontPic{
 				width: 95%;
 				margin-top: 35%;
+	            margin-left:10%;
 			}
 			
 			.hidden,.shown,.wait{
@@ -2876,14 +2877,15 @@ body{
 	
 }
 		
-/*ServicePart*/
+	/*ServicePart*/
 .service{
-	margin-top: 220px;
-	margin-bottom: 220px;
+	margin-top: 180px;
+	margin-bottom: 160px;
     width: 90%;
 	z-index: 11;
 	position: relative;
 }
+
 
 
 .serviceContent{
@@ -2905,9 +2907,9 @@ body{
 
 .serviceContent p{
 	color: grey;
-	font-size: 12px;
+	font-size: 10px;
 	margin:0 3vw;
-    opacity: 0;
+    opacity: 1;
 }
 
 .service > .coding > p{
@@ -3035,25 +3037,25 @@ body{
 	width: 80vw;
 	display: block;
 	text-align: center;
-	left: -8%;
+	left: 8%;
 }
 
 .projects .weddingSwipe{
-	left: -8%;
+	left: 0;
 }
 
 .projects .juice{
 	
 	width: 80vw;
 	top:25%;
-	left: 8%;
+	left: 10%;
 	
 }
 
 
 .projects .juiceSwipe{
 
-	left: 8%;
+	left: 0;
 }
 
 
@@ -3070,15 +3072,15 @@ body{
 }
 
 .projects .cupo{
-	width: 48vw;
+	width: 50vw;
 	top:20%;
-	left: 23%;
+	left: 25%;
 }
 
 
 .projects .cupoSwipe{
 	
-	left: 23%;
+	left: 25%;
 	
 }
 
@@ -3232,17 +3234,23 @@ body{
 	
 }
 
-	/*ServicePart*/
-.service{
-	margin-top: 220px;
-	margin-bottom: 220px;
-    width: 90%;
-	z-index: 11;
-	position: relative;
-}
 
-
-
+/*carousel*/
+	.carousel-inner{
+	 width: 80%;
+	 height: 330px;
+	 
+	}
+	.carousel-inner > .item > img{
+	 width: 9vw;
+     height: 9vw;
+     margin:2.5vw auto;	
+	}
+	.carousel-inner p{
+	max-width: 75%;
+	margin: 2vw auto 4vw auto ;
+	font-size: 10px;
+	}
 	
 
 .footer .frontPic .talk{
@@ -3258,4 +3266,3 @@ body{
 	
 	
 }
-
