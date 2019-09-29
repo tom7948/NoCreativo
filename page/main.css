@@ -3331,13 +3331,13 @@ section .wave:after{
 /*carousel*/
 	.carousel-inner{
 	 width: 80%;
-	 height: 360px;
+	 height: 380px;
 	 margin: 150px auto;
 	 
 	}
 	.carousel-inner > .item > img{
-	 width: 12vw;
-     height: 12vw;
+	 width: 24px;
+         height: 24px;
      margin:3vw auto;	
 	}
 	.carousel-inner p{
