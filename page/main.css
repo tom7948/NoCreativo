@@ -2949,7 +2949,7 @@ section .wave:after{
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	background:#000;
+	background:red;
 	transition: .6s ease;
 	z-index: 12;
 	display:flex;
