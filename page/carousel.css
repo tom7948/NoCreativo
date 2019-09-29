@@ -217,6 +217,27 @@
 		}
 
 }
+
+
+@media  (max-width: 480px){
+/*carousel*/
+	.carousel-inner{
+	 width: 80%;
+	 height: 380px;
+	 margin: 150px auto;
+	 
+	}
+	.carousel-inner > .item > img{
+	 width: 24px;
+         height: 24px;
+     margin:3vw auto;	
+	}
+	.carousel-inner p{
+	max-width: 75%;
+	margin: 2vw auto 4vw auto ;
+	font-size: 10px;
+	}
 	
+}
 
 		
