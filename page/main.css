@@ -240,7 +240,8 @@ body{
 /*menuIcon*/
 
 .adjust{
-	position: fixed;
+	position: sticky;
+	float: right;
 	top:20px;
 	right: 8px;
 	z-index: 19;
@@ -273,8 +274,8 @@ body{
   position: relative;
   z-index: 20;
   
-  
 }
+
 
 .nav-icon span {
   display: block;
@@ -1935,6 +1936,48 @@ section .wave:after{
 
 
 @media only screen and (max-width: 768px){
+	
+	.nav-icon {
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  margin-top: 8px;
+  
+}
+	
+.nav-icon span {
+ 
+  height: 5px;
+  
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 14%;
+}
+
+
+
+.nav-icon span:nth-child(1) {
+  top: 12px;
+  width: 55%;
+}
+
+.nav-icon span:nth-child(2),.nav-icon span:nth-child(3) {
+  top: 23px;
+  width: 72%;
+}
+
+.nav-icon span:nth-child(4) {
+  top: 34px;
+  width: 40%;
+}
+
+.nav-icon.open span:nth-child(1) {
+  top: 16px;
+  width: 0%;
+  left: 50%;
+}
+
 
 	
 /*resume*/
@@ -2577,6 +2620,7 @@ section .wave:after{
 	display: block;
 	text-align: center;
 	left: 2%;
+	top:25%;
 }
 
 
@@ -2683,6 +2727,8 @@ section .wave:after{
 
 @media only screen and (max-width: 545px){
 	
+
+	
 /*HeaderPic*/
 .header .frontPic{
 				width: 85%;
@@ -2695,18 +2741,18 @@ section .wave:after{
 	
 	/*slideScreen*/
 .slide_screenMobile{
-	position: sticky;
+	position: fixed;
 	float: right;
-	top:20px;
+	top:28px;
 	bottom: 0%;
-	right:9px;
-	width: 44px;
-	height: 44px;
+	right:9.5px;
+	width: 53px;
+	height: 53px;
 	border-radius: 50%;
 	background:#000;
 	transition: .6s ease;
 	z-index: 12;
-	display: block;
+	display:flex;
 }
 	
 	.slide_screen{
@@ -2714,9 +2760,11 @@ section .wave:after{
 	}
 	
 #menu_control:checked ~ .slide_screenMobile{
-	transform: scale(50);
+	transform:scale(50);
 	
 }
+	
+	
 	
 
 /*resume*/
@@ -2799,11 +2847,15 @@ section .wave:after{
 
 
 @media only screen and (max-width: 480px){
-body{
-		overflow-x:hidden;
+	body{
+		overflow-x:auto;
 	}
 	
-	
+	.bigWrap{
+	max-width: 100%;
+	overflow-x: hidden;
+
+	}
 
 	
 	.logo .img-fluid{
@@ -2841,26 +2893,26 @@ body{
                 font-size: 9vw;
 			}
 			
-.header .frontPic .title{
+			.header .frontPic .title{
 				top: 55%;
-	            left: 1%;
+	            left: 3%;
 			}
 	
 	
 	/*slideScreen*/
 .slide_screenMobile{
-	position: sticky;
+	position: fixed;
 	float: right;
-	top:20px;
+	top:28px;
 	bottom: 0%;
-	right:9px;
-	width: 44px;
-	height: 44px;
+	right:9.5px;
+	width: 53px;
+	height: 53px;
 	border-radius: 50%;
 	background:#000;
 	transition: .6s ease;
 	z-index: 12;
-	display: block;
+	display:flex;
 }
 	
 	.slide_screen{
@@ -2868,9 +2920,10 @@ body{
 	}
 	
 #menu_control:checked ~ .slide_screenMobile{
-	transform: scale(50);
+	transform:scale(50);
 	
 }
+	
 		
 	/*ServicePart*/
 .service{
@@ -3033,11 +3086,11 @@ body{
 	display: block;
 	text-align: center;
 	left: 13%;
-	top:24%;
+	top:0%;
 }
 
 .projects .weddingSwipe{
-	left: 0%;
+	left: 0;
 }
 
 .projects .juice{
@@ -3069,7 +3122,7 @@ body{
 
 .projects .cupo{
 	width: 58vw;
-	top:15%;
+	top:18%;
 	left: 25%;
 }
 
