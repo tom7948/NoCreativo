@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="page/normalise.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
+    
+    <style>
+		
+		body{
+	position: relative;
+	background:#2B364D;
+	overflow-x: hidden;
+	
+}
+
+
+
+	  
+	</style>
 
     <title>Tom's Studio</title>
   </head>
@@ -52,8 +66,7 @@
 
 
 
-
-  <div class="slide_screen">
+ <div class="slide_screen">
    
      <div class="container-fluid">
       <div class="row">
@@ -73,10 +86,11 @@
 		  </div>
       	<div class="col-md-4 col-lg-4 col-xl-4 inside_text"> 
      	     <div class="work">
-      	        <a href="https://www.behance.net/gallery/75914331/WEB-REDESIGN-WEDDING-STUDIO"><h3>PHENOMENA</h3></a>
-      	     	 <a href="https://www.behance.net/gallery/75971205/WEB-DESIGN-JUICE"><h3>FRESH UP</h3></a>
-      	     	 <a href="https://www.behance.net/gallery/76327471/ECOMMERCE-WEBSITE"><h3>RUBO</h3></a>
-      	     	 <a href="https://www.behance.net/gallery/76030101/AR-PROJECT_EDUCATION"><h3>COMPO</h3></a>
+     	         <a href="https://www.behance.net/gallery/81798649/CUPO-App-Design" target="_blank"><h3>CUPO</h3></a>
+     	         	 <a href="https://www.behance.net/gallery/75971205/WEB-DESIGN-JUICE" target="_blank"><h3>FRESH UP</h3></a>
+      	        <a href="https://www.behance.net/gallery/75914331/WEB-REDESIGN-WEDDING-STUDIO" target="_blank"><h3>PHENOMENA</h3></a>
+      	     	 <a href="https://www.behance.net/gallery/76327471/ECOMMERCE-WEBSITE" target="_blank"><h3>RUBO</h3></a>
+      	     	
       	     </div>
 		</div>
       </div>
@@ -88,7 +102,7 @@
 		  </div>
       	<div class="col-md-4 col-lg-4 col-xl-4 inside_text">
      	     <div class="work"> 
-				 <a href=""><p class="cross">Let’s talk</p></a>
+      	     <a href=""><p class="cross">Let’s talk</p></a>
 			</div>
 			  </div>
       </div>
@@ -148,53 +162,31 @@
  
     
     
-    
-<!--    header-->
-    
-    <div class="header">
-      <div class="container-fluid frontPic">
-    	<img src="../PIC/contact_blob.gif" alt="" class="img-fluid">
-    	<span class="title">Float me a message</span>
-      </div>
-    </div>
-    
-    
-    
-    
-  
-    
-
-  
-  
-  
-
- 
+     
  
  <section class="waveSection">
 	<div class="wave"></div>
 </section>
 
  
- 
-
-  
-  
-  
- 
-  
-
+<!--    header-->
     
-    <nav class="bottle">
-    <div>
-    	<img src="../PIC/bottle.png" alt="" class="img-fluid ">
+    <div class="header">
+      <div class="container-fluid frontPic">
+    	<img src="../PIC/Contact_blob.gif" alt="" class="img-fluid">
+    	<div class="title">nocreativo7948@gmail.com</div>
+      </div>
     </div>
-    </nav>
     
+ 
    
-   
-   
-   
+        <div class="bottle">
+    	<img src="../PIC/bottle.png" alt="" class="img-fluid ">
+        </div>
+
+ 
   
+<!--
     <div class="footer">
     <div class="row input-container">
 			<div class="col-xs-12 wrap">
@@ -229,6 +221,7 @@
 			</div>
 	</div>
    </div>
+-->
    
    
    
@@ -236,20 +229,7 @@
     
 	  </div>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     
     <!-- Optional JavaScript -->
@@ -265,175 +245,6 @@
     gridTop = windowHeight * 0.15,
     gridBottom = windowHeight * 0.9;
 	
-	
-    $(window).on('scroll', function() {
-      $('div.Upskill1').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill1');
-      } else {
-        $(this).removeClass('skill1');
-		  
-      }
-    });
-  });
-		
-		$(window).on('scroll', function() {
-      $('div.Upskill2').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill2');
-      } else {
-        $(this).removeClass('skill2');
-		  
-      }
-    });
-  });
-		
-		$(window).on('scroll', function() {
-      $('div.Upskill3').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill3');
-      } else {
-        $(this).removeClass('skill3');
-		  
-      }
-    });
-  });
-		
-		$(window).on('scroll', function() {
-      $('div.Upskill4').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill4');
-      } else {
-        $(this).removeClass('skill4');
-		  
-      }
-    });
-  });
-		
-		$(window).on('scroll', function() {
-      $('div.Upskill5').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill5');
-      } else {
-        $(this).removeClass('skill5');
-		  
-      }
-    });
-  });
-		
-		$(window).on('scroll', function() {
-      $('div.Upskill6').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill6');
-      } else {
-        $(this).removeClass('skill6');
-		  
-      }
-    });
-  });
-		
-	 
-	 $(window).on('scroll', function() {
-      $('div.Upskill7').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill7');
-      } else {
-        $(this).removeClass('skill7');
-		  
-      }
-    });
-  });
-	 
-	 $(window).on('scroll', function() {
-      $('div.Upskill8').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('skill8');
-      } else {
-        $(this).removeClass('skill8');
-		  
-      }
-    });
-  });
-	
-	 
-	  $(window).on('scroll', function() {
-      $('div.wedding').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('weddingSwipe');
-      } else {
-        $(this).removeClass('weddingSwipe');
-		  
-      }
-    });
-  });
-	 
-	  $(window).on('scroll', function() {
-      $('div.juice').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('juiceSwipe');
-      } else {
-        $(this).removeClass('juiceSwipe');
-		  
-      }
-    });
-  });
-	 
-	  $(window).on('scroll', function() {
-      $('div.rubo').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('ruboSwipe');
-      } else {
-        $(this).removeClass('ruboSwipe');
-		  
-      }
-    });
-  });
-	 
-	  $(window).on('scroll', function() {
-      $('div.compo').each(function() {
-      var thisTop = jQuery(this).offset().top - $(window).scrollTop();
-      if (thisTop >= gridTop && (thisTop + $(this).height()) <= gridBottom) {
-        $(this).addClass('compoSwipe');
-      } else {
-        $(this).removeClass('compoSwipe');
-		  
-      }
-    });
-  });
-	
-	  
-  $(window).trigger('scroll');
-	 
-	
-	
-	 
-	 $(window).scroll(function(){
-			$('nav').toggleClass('scrolled', $(this).scrollTop() > 400 );
-			
-			
-		});
-    
-	 
-	  $(window).scroll(function(){
-		    
-		  
-			$('nav').toggleClass('scrolled_bottom', $(this).scrollTop() > 6200 );
-			
-			
-		});
-
-	
 	</script>
 	
 <!--	menu to cross icon-->
@@ -448,3 +259,4 @@
 	
   </body>
 </html>
+
