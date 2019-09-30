@@ -2851,7 +2851,7 @@ section .wave:after{
 
 
 @media only screen and (max-width: 480px){
-	body{
+	html{
 		overflow-x:hidden;
 	}
 	
