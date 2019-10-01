@@ -903,7 +903,6 @@ body{
 
 
 @media only screen and (max-width: 480px){
-	
 	body{
 		overflow-x:inherit;
 	}
@@ -980,17 +979,17 @@ body{
 }
 	
 .header .frontPic{
-	width: 100vw;
-	margin-top: 35%;
+	width: 60vw;
+	margin-top: 30%;
 	position: relative;
 }
 
 
 .header .title{
 	width: 100%;
-	top:40%;
+	top:20%;
 	left: 0;
-	font-size: 9vw;
+	font-size: 7vw;
 	
 }
 	
@@ -999,7 +998,7 @@ body{
 	
 	width: 240px;
 	left:19%;
-	top:17%;
+	top:28%;
 
 }
 
@@ -1076,5 +1075,4 @@ body{
 	
 
 }
-
 
