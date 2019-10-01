@@ -915,18 +915,6 @@ body{
 	
 	
 
-	.logo .img-fluid{
-		top:10px;
-		width: 48px;
-		margin:6px 1px;
-		
-	}
-	.menu_btn{
-	width: 48px;
-	height: 48px;
-	margin: 6px 1px;
-
-}
 	
 	
 
@@ -972,12 +960,7 @@ body{
   left: 50%;
 }
 	
-	.menu_btn::before{
-	
-	width:34px;
-	left:7px;
-}
-	
+
 .header .frontPic{
 	width: 60vw;
 	margin-top: 30%;
@@ -1073,6 +1056,29 @@ body{
 	
 }
 	
+	.logo .img-fluid{
+		top:10px;
+		width: 48px;
+		margin:6px 1px;
+		
+		
+		
+		
+	}
+	.menu_btn{
+	width: 48px;
+	height: 48px;
+	margin: 6px 1px;
+ 
+	
+}
+
+	
+	.menu_btn::before{
+	
+	width:34px;
+	left:7px;
+}
 
 }
 
