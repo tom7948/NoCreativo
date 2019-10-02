@@ -1006,6 +1006,9 @@ body{
 		overflow-x:hidden;
 	}
 	
+	.bigWrap{
+		width:100%;
+	
 
 	.logo .img-fluid{
 		top:10px;
@@ -1147,6 +1150,37 @@ body{
 	transform:scale(50);
 	
 }
+		
+		
+		.infoSection{
+		width: 70%;
+	}
+	.infoSection .contact{
+		height: 55px;
+	}
+	.infoSection .contact1 img{
+	width: 24px;
+	top:10%;
+	left:20px;
+}
+
+.infoSection .contact2 img{
+	width: 20px;
+	top:39%;
+	left: 20px;
+}
+
+.infoSection .contact3 img{
+	width: 22px;
+	top:73%;
+	left:20px;
+}
+	.infoSection  h4{
+		text-decoration: none;
+		color: white;
+		font-size: 14px;
+	
+	}
 	
 
 }
