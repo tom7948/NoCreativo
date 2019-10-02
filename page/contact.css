@@ -1085,7 +1085,7 @@ body{
 	
 .frontPic .img-fluid{
 	width:100%;
-	z-index:12;
+	z-index:20;
 }
      .frontPic .title{
 	width: 480px;
