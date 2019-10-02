@@ -971,13 +971,13 @@ body{
 
 @media only screen and (max-width: 480px){
 	
-	body{
-		overflow-x:inherit;
+	html{
+		overflow-x:hidden;
 	}
 	
 	.bigWrap{
 	max-width: 100%;
-	overflow-x: hidden;
+
 
 	}
 	
@@ -1118,4 +1118,6 @@ body{
 	
 
 }
+
+
 
