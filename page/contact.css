@@ -1077,7 +1077,7 @@ body{
 
 
 	
-			.frontPic{
+.frontPic{
 	top:60px; 
 	width: 400px;
 	bottom: 50px;
@@ -1085,7 +1085,7 @@ body{
      .frontPic .title{
 	width: 480px;
 	top:200px;
-	left: -30%;
+	left: -20%;
 	font-size: 28px;
 }
 	.bottle {
