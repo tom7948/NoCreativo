@@ -15,6 +15,10 @@ body{
 	background: #DE9262;
 }
 
+.bigWrap{
+	width: 100%;
+}
+
 
 /*newslideMenu*/
   .slide_screen{
@@ -506,17 +510,18 @@ body{
 	
 		.frontPic{
 	top:60px; 
-	width: 80%;
+	width: 400px;
+	bottom: 50px;
 }
      .frontPic .title{
 	width: 480px;
 	top:280px;
-	left: -10%;
-	font-size: 32px;
+	left: 0%;
+	font-size: 30px;
 }
 	.bottle {
 		top:24%;
-		width: 380px;
+		width: 320px;
 		left: 10%;
 	}
 	.infoSection{
@@ -1079,11 +1084,14 @@ body{
 	z-index: 19;
 
 }
+	
+
+
 
 .nav-icon {
   background:#000;
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   margin: 2px; 
 }	
 	
