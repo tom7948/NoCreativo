@@ -1002,12 +1002,10 @@ body{
 
 @media only screen and (max-width: 480px){
 	
+	
 	html{
 		overflow-x:hidden;
 	}
-	
-	.bigWrap{
-		width:100%;
 	
 
 	.logo .img-fluid{
@@ -1017,15 +1015,13 @@ body{
 		
 	}
 	.menu_btn{
-	width: 42px;
-	height: 42px;
+	width: 48px;
+	height: 48px;
 	margin: 6px 1px;
 
 }
 	
 	
-
-
 .nav-icon span:nth-child(1) {
   top: 8px;
   width: 72%;
@@ -1087,14 +1083,13 @@ body{
 	z-index: 19;
 
 }
-	
-.adjust .menu{
-		width: 42px;
-		height: 42px;
-		
-	}
 
-	
+.nav-icon {
+  background:#000;
+  width: 44px;
+  height: 44px;
+  margin: 2px; 
+}	
 	
 .nav-icon span {
   
@@ -1126,8 +1121,8 @@ body{
 	top:19px;
 	bottom: 0%;
 	right:9.5px;
-	width: 48px;
-	height: 48px;
+	width: 44px;
+	height: 44px;
 	border-radius: 50%;
 	background:#000;
 	transition: .6s ease;
@@ -1143,37 +1138,30 @@ body{
 	transform:scale(50);
 	
 }
-		
-		
-		.infoSection{
-		width: 70%;
-	}
-	.infoSection .contact{
-		height: 55px;
-	}
-	.infoSection .contact1 img{
-	width: 24px;
-	top:10%;
-	left:20px;
-}
-
-.infoSection .contact2 img{
-	width: 20px;
-	top:39%;
-	left: 20px;
-}
-
-.infoSection .contact3 img{
-	width: 22px;
-	top:73%;
-	left:20px;
-}
-	.infoSection  h4{
-		text-decoration: none;
-		color: white;
-		font-size: 14px;
 	
+	.logo .img-fluid{
+		top:10px;
+		width: 48px;
+		margin:6px 1px;
+		
+		
+		
+		
 	}
+	.menu_btn{
+	width: 48px;
+	height: 48px;
+	margin: 6px 1px;
+ 
+	
+}
+
+	
+	.menu_btn::before{
+	
+	width:34px;
+	left:7px;
+}
 	
 
 }
