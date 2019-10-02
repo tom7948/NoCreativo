@@ -1093,6 +1093,8 @@ body{
 	
 .frontPic .img-fluid{
 	width:75%;
+	margin:auto;
+	text-align:center;
 	z-index:20;
 }
      .frontPic .title{
