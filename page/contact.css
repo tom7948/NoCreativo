@@ -1103,9 +1103,18 @@ body{
 		top:80px;
 	}
 	
+	.infoSection .contact{
+	box-shadow: 0.5px 3px 8px #000;
+	
+	
+}
+
+	
 	.infoSection  h4{
 		
 		text-decoration-color:white;
+		
+	
 
 }
 
