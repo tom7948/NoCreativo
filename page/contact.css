@@ -510,13 +510,13 @@ body{
 	
 		.frontPic{
 	top:60px; 
-	width: 400px;
-	bottom: 50px;
+	width: 300px;
+	bottom: 60px;
 }
      .frontPic .title{
 	width: 480px;
 	top:280px;
-	left: 0%;
+	left: -20%;
 	font-size: 30px;
 }
 	.bottle {
