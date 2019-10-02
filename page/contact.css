@@ -1024,7 +1024,12 @@ body{
 }
 	
 	
-
+.nav-icon {
+  background:blue;
+  width: 55px;
+  height: 55px;
+  margin: 2px; 
+}
 
 .nav-icon span:nth-child(1) {
   top: 8px;
@@ -1094,14 +1099,7 @@ body{
 		
 	}
 
-
-
-.nav-icon {
-  background:red;
-  width: 42px;
-  height: 42px;
-  margin: 2px; 
-}	
+	
 	
 .nav-icon span {
   
