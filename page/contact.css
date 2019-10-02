@@ -1084,12 +1084,13 @@ body{
 }
 	
 .frontPic .img-fluid{
-	width:320px;
+	width:100%;
+	z-index:12;
 }
      .frontPic .title{
 	width: 480px;
 	top:200px;
-	left: -15%;
+	left: -18%;
 	font-size: 28px;
 }
 	.bottle {
@@ -1098,7 +1099,7 @@ body{
 		left: 10%;
 	}
 	.infoSection{
-		top:60px;
+		top:80px;
 	}
 	
 	.infoSection  h4{
