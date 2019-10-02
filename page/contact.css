@@ -4,7 +4,7 @@
 }
 
 html{
-	background-color:#DE9262;
+	background-color:#2B364D;
 	
 	
 }
@@ -12,7 +12,7 @@ html{
 body{
 	position: relative;
 	overflow-x: hidden;
-	background: #DE9262;
+	background: #2B364D;
 }
 
 .bigWrap{
@@ -1095,7 +1095,7 @@ body{
 }
 	.bottle {
 		top:24%;
-		width: 320px;
+		width: 250px;
 		left: 10%;
 	}
 	.infoSection{
