@@ -1089,12 +1089,12 @@ body{
 	top:60px; 
 	width: 400px;
 	bottom: 50px;
+	margin:auto;
+	text-align:center;
 }
 	
 .frontPic .img-fluid{
-	width:75%;
-	margin:auto;
-	text-align:center;
+	width:85%;
 	z-index:20;
 }
      .frontPic .title{
