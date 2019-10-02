@@ -501,6 +501,30 @@ body{
 }
 
 
+@media only screen and (max-width:480px){
+	
+	
+		.frontPic{
+	top:60px; 
+	width: 80%;
+}
+     .frontPic .title{
+	width: 480px;
+	top:280px;
+	left: -10%;
+	font-size: 32px;
+}
+	.bottle {
+		top:24%;
+		width: 380px;
+		left: 10%;
+	}
+	.infoSection{
+		top:60px;
+	}
+}
+
+
 
 
 /*infosection*/
@@ -682,6 +706,8 @@ body{
 	left:20px;
 }
 	.infoSection  h4{
+		text-decoration: none;
+		color: white;
 		font-size: 14px;
 	
 	}
@@ -975,13 +1001,6 @@ body{
 		overflow-x:hidden;
 	}
 	
-	.bigWrap{
-	max-width: 100%;
-
-
-	}
-	
-	
 
 	.logo .img-fluid{
 		top:10px;
@@ -1063,8 +1082,8 @@ body{
 
 .nav-icon {
   background:#000;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   margin: 2px; 
 }	
 	
@@ -1098,10 +1117,10 @@ body{
 	top:19px;
 	bottom: 0%;
 	right:9.5px;
-	width: 44px;
-	height: 44px;
+	width: 48px;
+	height: 48px;
 	border-radius: 50%;
-	background:#000;
+	background:red;
 	transition: .6s ease;
 	z-index: 12;
 	display:flex;
@@ -1118,6 +1137,4 @@ body{
 	
 
 }
-
-
 
