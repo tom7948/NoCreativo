@@ -802,30 +802,6 @@ body{
 }
 
 
-@media only screen and (max-width:480px){
-	
-	
-		.frontPic{
-	top:60px; 
-	width: 400px;
-	bottom: 50px;
-}
-     .frontPic .title{
-	width: 480px;
-	top:200px;
-	left: -30%;
-	font-size: 28px;
-}
-	.bottle {
-		top:24%;
-		width: 320px;
-		left: 10%;
-	}
-	.infoSection{
-		top:60px;
-	}
-}
-
 
 
 
@@ -1100,6 +1076,26 @@ body{
 }
 
 
+	
+			.frontPic{
+	top:60px; 
+	width: 400px;
+	bottom: 50px;
+}
+     .frontPic .title{
+	width: 480px;
+	top:200px;
+	left: -30%;
+	font-size: 28px;
+}
+	.bottle {
+		top:24%;
+		width: 320px;
+		left: 10%;
+	}
+	.infoSection{
+		top:60px;
+	}
 
 }
 
