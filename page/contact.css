@@ -1082,6 +1082,10 @@ body{
 	width: 400px;
 	bottom: 50px;
 }
+	
+.frontPic img{
+	width:320px;
+}
      .frontPic .title{
 	width: 480px;
 	top:200px;
@@ -1096,6 +1100,10 @@ body{
 	.infoSection{
 		top:60px;
 	}
+	
+	.infoSection  h4{
+		color:white;
+		text-decoration:none;
 
 }
 
