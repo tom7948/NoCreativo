@@ -1083,7 +1083,7 @@ body{
 	bottom: 50px;
 }
 	
-.frontPic img{
+.frontPic .img-fluid{
 	width:320px;
 }
      .frontPic .title{
