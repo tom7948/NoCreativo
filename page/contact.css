@@ -52,7 +52,7 @@ body{
 }
 
 .slide_screen .row{
-	margin:2.5vw 1vw;
+	margin:1vw 1vw;
 }
 
 .slide_screen .row .inside_text{
@@ -170,15 +170,15 @@ body{
 
 		
 	.nav .left > a{
-		    text-decoration: line-through;
-	        cursor: default;
+		    text-decoration: underline;
+	        cursor: pointer;
 		    color: white;
 		}
 
 
     .nav_right .right  a{
-		    text-decoration: underline;
-	        cursor: pointer;
+		    text-decoration: line-through;
+	        cursor: default;
 		    color: white;
 		    
 		}
