@@ -1,3 +1,4 @@
+
 *{
 	padding: 0;
 	margin: 0;
@@ -8,6 +9,8 @@ body{
 	line-height: 1.5;
 	background:#2B364D;
 	overflow-x: hidden;
+	height: 100vh;
+	width: 100vw;
 	
 }
 
@@ -465,30 +468,31 @@ body{
 .boat {
 	position: fixed;
 	width: 130px;
-	left: 46.5%;
-	top: 22%;
-	display: block;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	align-content: center;
 	justify-content: center;
 	z-index: 0;
 	transition: 1s ease;
-	animation: shake 8s ease-in alternate infinite;
+		
 }
 
 
 .boat.scrolled {
 	width: 100px;
-	left: 47%;
+	filter: drop-shadow(2px 2px 20px  #000);
 }
 
 
 .boat.scrolled_bottom {
 	width: 130px;
-	left: 45.5%;
+	
 }
 
 .boat .img-fluid {
 	width: 100%;
+	animation: shake 8s ease-in alternate infinite;
 }
 
 
@@ -1161,6 +1165,8 @@ button div {
   }
 }
 
+
+
 @keyframes rotate {
   0% {
     transform: rotateZ(0deg) scale($size);
@@ -1531,18 +1537,17 @@ button div {
 /*Boat*/	
 .boat {
 	width: 120px;
-	left: 43%;
-	top: 25%;
+	
 }
 
 .boat.scrolled {
 	width: 95px;
-	left: 46%;
+	
 }
 
 .boat.scrolled_bottom {
 	width: 120px;
-	left: 43%;
+
 }
 	
 	
@@ -2232,21 +2237,19 @@ button div {
 .boat {
 
 	width: 15vw;
-	left: 42%;
-	top: 30vw;
+
 }
 
 
 .boat.scrolled {
 	width: 12vw;
-	left: 44%;
+	
 }
 
 
 .boat.scrolled_bottom {
 	width: 15vw;
-	left: 42%;
-	top: 28%;
+	
 }
 	
 	
@@ -2477,20 +2480,19 @@ button div {
 /*BOAT*/
 .boat {
 	width: 85px;
-	left:43.5%;
-	top:23%;
+	
 }
 
 
 .boat.scrolled{
 	width: 60px;
-	left: 45%;
+	
 }
 
 
 .boat.scrolled_bottom{
 	width: 85px;
-	left: 45.5%;
+	
 }	
 	
 }
@@ -2584,20 +2586,20 @@ button div {
 /*BOAT*/
 .boat {
 	width: 85px;
-	left:39%;
-	top:15%;
+
+	
 }
 
 
 .boat.scrolled{
 	width: 60px;
-	left: 45%;
+	
 }
 
 
 .boat.scrolled_bottom{
 	width: 85px;
-	left: 45.5%;
+
 }	
 	
 	
@@ -2792,8 +2794,7 @@ button div {
 .boat {
 	
 	width: 16vw;
-	left:42%;
-	top:30%;
+	
 
 }
 
