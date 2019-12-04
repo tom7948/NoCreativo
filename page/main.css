@@ -2642,9 +2642,6 @@ button div {
 
 
 @media only screen and (max-width: 480px){
-	html{
-		overflow-x:hidden;
-	}
 	
 	.bigWrap{
 	max-width: 100%;
