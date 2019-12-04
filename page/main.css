@@ -2645,7 +2645,7 @@ button div {
 	
 	.bigWrap{
 	max-width: 100%;
-	
+	overflow-x: hidden;
 
 	}
 
