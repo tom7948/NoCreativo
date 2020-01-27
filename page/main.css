@@ -2604,20 +2604,20 @@ button div {
 
 /*BOAT*/
 .boat {
-	width: 85px;
+	width: 70px;
 
 	
 }
 
 
 .boat.scrolled{
-	width: 60px;
+	width: 70px;
 	
 }
 
 
 .boat.scrolled_bottom{
-	width: 85px;
+	width: 70px;
 
 }	
 	
@@ -2809,14 +2809,14 @@ button div {
 	
 .boat {
 	
-	width: 16vw;
+	width: 65px;
 	
 
 }
 
 
    .boat.scrolled{
-	width: 16vw;
+	width: 65px;
 	
 }
 	
