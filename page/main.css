@@ -186,7 +186,7 @@ body{
 .nav .left {
 	writing-mode: vertical-rl;
 	transform: rotate(180deg);
-	padding-bottom: 250px;
+	padding-bottom: 0px;
 }
 
 .nav_right .right {
